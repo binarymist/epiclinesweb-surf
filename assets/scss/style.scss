@@ -633,5 +633,28 @@ textarea.form-control {
 }
 
 
+/* Full-width navbar background colors based on site section */
+.navbar-wrapper.motorhome {
+  background-color: #0056b3; // Motorhome blue
+}
+
+.navbar-wrapper.surf {
+  background-color: #2a8a1f; // Surf green
+}
+
+.navbar.motorhome .nav-link,
+.navbar.motorhome .navbar-brand,
+.navbar.surf .nav-link,
+.navbar.surf .navbar-brand {
+  color: white;
+}
+
+.navbar.motorhome .nav-link:hover,
+.navbar.motorhome .navbar-brand:hover,
+.navbar.surf .nav-link:hover,
+.navbar.surf .navbar-brand:hover {
+  color: #e0e0e0;
+}
+
 
 @import "toptabs";

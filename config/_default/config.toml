@@ -22,6 +22,8 @@ unsafe = true
 link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.js]]
+link = "plugins/custom/dropdown-hover.js"
 [[params.plugins.css]]
 link = "plugins/themefisher-font/themefisher-font.min.css"
 [[params.plugins.css]]
@@ -57,6 +59,9 @@ contact_form_action = "#" # contact form works with https://formspree.io
 surfURL = "https://epiclines.nz/surf/"
 coreURL = "https://epiclines.nz/"
 motorhomeURL = "https://epiclines.nz/motorhome/"
+
+section = "surf"
+
 
 # Preloader
 [params.preloader]

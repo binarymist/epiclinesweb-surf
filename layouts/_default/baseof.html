@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" class="{{ cond (in .Site.BaseURL "/motorhome/") "motorhome" (cond (in .Site.BaseURL "/surf/") "surf" "") }}">
+{{- partial "head.html" . -}}
+
+<body id="body">
+	{{- partial "preloader.html" . -}}
+	{{- partial "header.html" . -}}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+</body>
+
+</html>
+

@@ -1,8 +1,5 @@
-<!-- DEBUG: motorhomeURL={{ .Site.Params.motorhomeURL }} | baseURL={{ .Site.BaseURL }} -->
-
-<nav class="top-tabs">
-    <!-- DEBUG: motorhomeURL = {{ .Site.Params.motorhomeURL }} | surfURL = {{ .Site.Params.surfURL }} -->
-    <a href="{{ .Site.Params.motorhomeURL }}" class="{{ if in .Site.BaseURL "/motorhome/" }}active{{ end }}">Motorhomes</a>
-    <a href="{{ .Site.Params.surfURL }}" class="{{ if in .Site.BaseURL "/surf/" }}active{{ end }}">Surf</a>
+<nav class="top-tabs {{ .Site.Params.section }}">
+  <a href="{{ .Site.Params.motorhomeURL }}" class="{{ if in .Site.BaseURL "/motorhome/" }}active{{ end }}">Motorhomes</a>
+  <a href="{{ .Site.Params.surfURL }}" class="{{ if in .Site.BaseURL "/surf/" }}active{{ end }}">Surf</a>
 </nav>
 

@@ -1,13 +1,25 @@
 {{ $current_page := . }}
 {{ $highlight_active_link := site.Params.main_menu.highlight_active_link | default true }}
 
-<!-- top tabs -->
-{{ partial "toptabs.html" . }}
 
 <!-- navigation -->
-<header class="sticky-top bg-white">
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+<header class="sticky-top">
+
+  <!-- Full-width background for top-tabs -->
+  <div class="top-tabs-wrapper {{ .Site.Params.section }}">
+    <div class="container">
+      {{ partial "toptabs.html" . }}
+    </div>
+  </div>
+
+  <!-- Full-width background for navbar -->
+  <div class="navbar-wrapper {{ .Site.Params.section }}">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark {{ .Site.Params.section }}">
+
+
+
+
       <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">{{ if site.Params.logo }} <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" {{with site.Params.logo_width}}width="{{.}}"{{end}}> {{ else }} {{ site.Title }} {{ end }}</a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,11 +29,6 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }}
-          <!-- Replace this with purpleteam-labs-web navbar.html.
-          <li class="nav-item">
-            <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | relLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
-          </li>
-          -->
           
           <!-- Following code taken from purpleteam-labs-web -->
           {{ if .HasChildren }}
@@ -81,36 +88,13 @@
           {{ end }}
           {{ end }}
 
-        <!-- End - Following code taken from purpleteam-labs-web -->
         </ul>
-        <!-- Language List -->
-        <!-- KC: Only need English.
-        {{ if .IsTranslated }}
-        <select class="lang-list" id="select-language" onchange="location = this.value;">
-          {{ $siteLanguages := .Site.Languages}}
-          {{ $pageLang := .Page.Lang}}
-          {{ range .Page.AllTranslations }}
-          {{ $translation := .}}
-          {{ range $siteLanguages }}
-          {{ if eq $translation.Lang .Lang }}
-          {{ $selected := false }}
-          {{ if eq $pageLang .Lang}}
-          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-          </option>
-          {{ else }}
-          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-          {{ end }}
-          {{ end }}
-          {{ end }}
-          {{ end }}
-        </select>
-        {{ end }}
-        -->
       </div>
       {{ if site.Params.snipcart.enable}}
       <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
       {{ end }}
-    </nav>
+      </nav>
+    </div>
   </div>
 </header>
 <!-- /navigation -->

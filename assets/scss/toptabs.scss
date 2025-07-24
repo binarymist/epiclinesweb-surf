@@ -1,19 +1,40 @@
+.top-tabs-wrapper.motorhome,
+.top-tabs-wrapper.surf {
+  background-color: rgba(0, 0, 0, 0.7); /* Brown for inactive site */
+}
+
+/* Tabs layout inside container */
 .top-tabs {
-  background: #f5f5f5;
-  padding: 0.5rem;
   display: flex;
   justify-content: flex-start;
   gap: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
+/* All tabs by default (inactive) */
 .top-tabs a {
+  display: block;
   text-decoration: none;
-  color: #333;
-  font-weight: 600;
-  padding: 0.25rem 0.5rem;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  transition: color 0.3s ease;
 }
 
-.top-tabs a.active {
-  color: #007bff;
-  border-bottom: 2px solid #007bff;
+/* On hover */
+.top-tabs a:hover {
+  color: #f0e68c; /* Optional: light yellow or anything else */
 }
+
+
+/* Active tab overrides background to match section */
+.top-tabs-wrapper.motorhome .top-tabs a.active {
+  background-color: #0056b3; /* Motorhome Blue */
+}
+
+.top-tabs-wrapper.surf .top-tabs a.active {
+  background-color: #2a8a1f; /* Surf Green */
+}
+
