@@ -657,4 +657,36 @@ textarea.form-control {
 }
 
 
+
+/* Footer background and text colors for each section */
+html.motorhome footer {
+  background-color: #0056b3;
+  color: white;
+}
+html.surf footer {
+  background-color: #2a8a1f;
+  color: white;
+}
+
+/* Ensure all footer links and text stay white */
+html.motorhome footer a,
+html.motorhome footer .copyright-text,
+html.surf footer a,
+html.surf footer .copyright-text {
+  color: white;
+}
+
+/* Optional: Hover effect for footer links */
+html.motorhome footer a:hover,
+html.surf footer a:hover {
+  color: #e0e0e0; /* lighter white */
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
 @import "toptabs";

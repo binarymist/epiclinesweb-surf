@@ -51,6 +51,7 @@ logo_width = "100px"
 # Meta data
 description = "EpicLines Surf"
 author = "BinaryMist Limited"
+copyright = '&copy; 2025 BinaryMist Limited'
 # currency
 currency = "$"
 # contact form action
