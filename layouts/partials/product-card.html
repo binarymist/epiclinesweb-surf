@@ -1,0 +1,30 @@
+<!--debug-->
+{{/* printf "partials/product-card.html: %s" .Title */}}
+<!--End debug-->
+<article class="block">
+  {{ $title := .Title }}
+  <div class="gallery-overlay">
+    <a href="{{ .RelPermalink }}" class="gallery-popup">
+      <i class="tf-ion-plus-round"></i>
+    </a>    
+  </div>
+  {{ with .Params.images }}
+    <img class="img-fluid" src="{{ index . 0 | relURL }}" alt="{{ $title }}">
+  {{ end }}
+</article>
+<div class="product-info">
+  <h4 class="mb-2">
+    <a href="{{ .RelPermalink }}" class="link-title">{{ $title }}</a>
+  </h4>
+  <p class="price">
+    {{ if .Params.discount_price }}
+      {{ $.Site.Params.currency }}{{ .Params.discount_price }}
+      <s class="price">{{ $.Site.Params.currency }}{{ .Params.price }}</s>
+    {{ else }}
+      {{ $.Site.Params.currency }}{{ .Params.price }}
+    {{ end }}
+  </p>
+</div>
+
+
+

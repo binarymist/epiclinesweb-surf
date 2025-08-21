@@ -1,0 +1,9 @@
+---
+title: "Surfboard Racks"
+description: "Storage for your surfboard quiver"
+draft: false
+taxonomy_prefix: "surfboard-rack"
+---
+
+All of our surfboard racks have been designed, engineered, built, and tested by New Zealand surfers. That's right, everything we make we use ourselves.
+

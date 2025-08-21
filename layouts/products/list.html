@@ -1,14 +1,69 @@
+
 {{ define "main" }}
 
-<section class="section gallery">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h1 class="font-weight-bold">{{ .Title }}</h1>
+  {{/* Detect if we're at the top-level products section */}}
+  {{ if eq .CurrentSection .FirstSection }}
+    <!--ChatGPT's idea-->
+    <section class="section gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h1 class="font-weight-bold">{{ .Title }}</h1>
+            {{ .Content }}
+          </div>
+
+          {{/* Loop over all sub-sections of the products section */}}
+          <!--debug-->
+          {{/*<div>{{ printf ".Sections: %s" .Sections }}</div>*/}}
+          <!--End debug-->
+          {{ range .Sections }}
+            {{ $type := .Title }}
+            {{ $pages := .Pages }}
+            <!--debug-->
+            {{/*<div>{{ printf ".Title: %s" .Title }}</div>
+            <div>{{ printf ".Pages: %s" .Pages }}</div>*/}}
+            <!--End debug-->
+            {{ if gt (len $pages) 0 }}
+
+              {{/* Pick the first product page for this type for thumbnail and info */}}
+              {{ $product := index $pages 0 }}
+
+              <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="block">
+                  <div class="gallery-overlay">
+                    <a href="{{ .RelPermalink }}" class="gallery-popup">
+                      <i class="tf-ion-plus-round"></i>
+                    </a>
+                  </div>
+                  {{ with index $product.Params.images 0 }}
+                    <img class="img-fluid" src="{{ . | absURL }}" alt="{{ $product.Title }}">
+                  {{ else }}
+                    <img class="img-fluid" src="/path/to/fallback-image.jpg" alt="No image available">
+                  {{ end }}
+                </div>
+                <div class="product-info">
+                  <h4 class="mb-2">
+                    <a href="{{ .RelPermalink }}" class="link-title">{{ $type }}</a> ({{ len $pages }})
+                  </h4>
+                </div>
+              </div>
+
+            {{ end }}
+          {{ end }}
+
+        </div>
       </div>
-      {{ range .Pages }}
-        {{ if not .IsNode }}
-          <!-- Render your product here for the main section -->
+    </section>
+    <!--End ChatGPT's idea-->
+
+    <!--Vex's products idea-->
+    {{/*<section class="section gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h1 class="font-weight-bold">{{.Title}}</h1>
+          </div>
+          {{ range (where .Site.RegularPages "Section" "products") }}
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="block">
               <div class="gallery-overlay">
@@ -19,62 +74,50 @@
               <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
             </div>
             <div class="product-info">
-            <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
-            <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
-              {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
-              </p>
-            </div>
-          </div>
-        {{ end }}
-      {{ end }}
-      {{ range .Sections }}
-        {{ range .Pages }}
-          {{ if not .IsNode }}
-            <!-- Render your product here for the subdirectory -->
-
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="block">
-                <div class="gallery-overlay">
-                  <a href="{{ .Permalink }}" class="gallery-popup">
-                    <i class="tf-ion-plus-round"></i>
-                  </a>
-                </div>
-                <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
-              </div>
-              <div class="product-info">
               <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
               <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
                 {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
-                </p>
-              </div>
+              </p>
             </div>
-            
-          {{ else }}
-            <!-- Render your product here for nested subdirectories -->
-            {{ range .Pages }}
-              <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                <div class="block">
-                  <div class="gallery-overlay">
-                    <a href="{{ .Permalink }}" class="gallery-popup">
-                      <i class="tf-ion-plus-round"></i>
-                    </a>
-                  </div>
-                  <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
-                </div>
-                <div class="product-info">
-                  <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
-                  <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
-                    {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
-                  </p>
-                </div>
-              </div>
-            {{ end }}
+          </div>
           {{ end }}
+        </div>
+      </div>
+    </section>*/}}
+    <!--End Vex's products idea-->
+  {{ else }}
+    {{/* Normal product list for sub-pages */}}    
 
-        {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</section>
+    <!--Our product specific template-->
+    <section class="section gallery">
+      <div class="container">
+        <div class="row">
+          <aside class="col-lg-3">
+            {{ partial "sidebar.html" . }}
+          </aside>
+          
+          <div class="col-lg-9">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+            <div class="row">
+              {{ $sectionDir := .File.Dir }}
+              {{ range $p := where site.RegularPages "Section" "products" }}
+                {{ if strings.HasPrefix $p.File.Dir $sectionDir }}
+                  <div class="col-md-4 mb-4">
+                    {{ partial "product-card.html" $p }}
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Our product specific template-->
+
+  {{ end }}
+
+
 {{ end }}
+
 

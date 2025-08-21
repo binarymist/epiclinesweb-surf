@@ -63,36 +63,37 @@ promo:
 ############################# About Product #######################
 about_product:
   enable: true
-  title: "Why Choose Apple Watch"
+  title: "Services We Offer"
   items:
     # about product item loop
     - image: "images/showcase/showcase-4.png"
-      title: "Lorem ipsum dolor sit amet."
+      title: "Surfboard Repair"
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
         sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
         quas, quo harum deserunt consequatur cumque!"
       button:
-        enable: false
-        label: "Check Features"
-        link: "#/"
+        enable: true
+        label: "Learn More"
+        link: "/surf/service/surfboard-repair/"
 
     # about product item loop
     - image: "images/showcase/showcase-3.png"
-      title: "Lorem ipsum dolor sit amet."
+      title: "Wetsuit Repair"
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
         sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
         quas, quo harum deserunt consequatur cumque!"
       button:
-        enable: false
-        label: "Check Features"
-        link: "#/"
+        enable: true
+        label: "Learn More"
+        link: "/surf/service/wetsuit-repair/"
 
 #################################### Products ########################
 products:
   enable: true
-  title: "Checkout Our All Products"
+  title: "Products"
+  content: "Check out our range of surfboard racks, leashes, grips, and accessories designed and engineered in New Zealand."
 
 ################################## Subscription ###################
 subscription:

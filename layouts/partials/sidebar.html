@@ -1,0 +1,67 @@
+
+{{ $prefix := .Params.taxonomy_prefix }}
+<!--degug-->
+{{/*<div>{{ printf "prefix: %s" $prefix }}</div>
+<br/>*/}}
+<!--end debug-->
+<div class="product-sidebar">
+  {{ if not $prefix }}
+    <p><em>No taxonomy_prefix set on this section.</em></p>
+  {{ end }}
+
+  {{/*
+  <!--debug-->
+  <ul>
+    {{ range $key, $value := site.Taxonomies }}
+      <li>>>>{{ $key }}: {{ $value }}</li>
+    {{ end }}
+  </ul>
+  <!--End debug-->
+  */}}
+
+  {{ range $taxKey, $taxMap := site.Taxonomies }}
+
+    <!--debug$taxKey is deck_grip-->
+    {{/*--------
+    <div>{{ printf "$taxKey: %s" $taxKey }}</div>
+    <div>{{ printf "prefix: %s" $prefix }}</div>
+    ----
+    <div>{{ printf "$taxKey and slash %s %s" $taxKey (print $prefix "/") }}</div>
+    <br/>*/}}
+    <!--end debug-->
+
+    {{ if and $prefix (strings.HasPrefix $taxKey (print $prefix "/")) }}
+      {{ $prop := replace $taxKey (print $prefix "/") "" }}
+      <!--debug-->
+      {{/*<div>{{ printf "$prop: %s" $prop }}</div>*/}}
+      <!--end debug-->
+      <div class="taxonomy-group mb-3">
+        <h5>{{ title (replace $prop "-" " ") }}</h5>
+        <ul class="list-unstyled">
+          {{ range $termName, $termPages := $taxMap }}
+            <!--debug-->
+            {{/*<div>{{ printf "$termName: %s" $termName }}</div>
+            <div>{{ printf "$termPages: %s" $termPages }}</div>*/}}
+            <!--End debug-->
+            {{ $.Scratch.Set "count" 0 }}
+            {{ range $p := $termPages }}
+              <!--debug-->
+              {{/*<div>{{ printf "$p.File.Dir: %s" $p.File.Dir }}</div>*/}}
+              <!--End debug-->
+              {{ if strings.HasPrefix $p.File.Dir (print "products/" $prefix "/") }}
+                {{ $.Scratch.Add "count" 1 }}
+              {{ end }}
+            {{ end }}
+            {{ $count := $.Scratch.Get "count" }}
+            {{ if gt $count 0 }}
+              <li>
+                <a href="{{ (print "/" $.Site.Params.section "/" $prefix "/" $prop "/" (urlize $termName) "/") | relLangURL }}">{{ $termName }}</a>
+                <small class="text-muted"> ({{ $count }})</small>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>

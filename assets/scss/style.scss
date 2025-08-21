@@ -684,8 +684,13 @@ html.surf footer a:hover {
 }
 
 
-
-
+#products .homepage-product-link {
+  text-decoration: none;
+  color: inherit;
+  /* Equivalent of the utility classes */
+  display: block; /* Makes the link take up the full width of its parent */
+  text-align: center; /* Centers the content inside the link */
+}
 
 
 

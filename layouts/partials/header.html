@@ -33,7 +33,7 @@
           <!-- Following code taken from purpleteam-labs-web -->
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <a href="{{ .URL | relLangURL }}" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
               <span>{{ .Name | safeHTML }}</span>
               <span class="caret"></span>
             </a>

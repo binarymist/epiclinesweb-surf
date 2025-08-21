@@ -2,142 +2,135 @@
 ###################################### Navigation english ######################################
 
 [[main]]
-identifier = "surfboard"
-name = "Surfboard"
+identifier = "shop"
+name = "Shop"
+url = "products/"
 weight = 1
 
   [[main]]
-  identifier = "surfboard_accessories"
-  parent = "surfboard"
-  name = "Accessories"
-  url = "products/surfboard/accessories/"
+  identifier = "shop_leashes"
+  parent = "shop"
+  name = "Leash"
+  url = "products/leash/"
   weight = 1
 
   [[main]]
-  identifier = "deck_grip"
-  parent = "surfboard"
-  name = "Deck Grip"
-  url = "products/surfboard/deck-grip/"
+  identifier = "shop_surfboard_racks"
+  parent = "shop"
+  name = "Surfboard Racks"
+  url = "products/surfboard-rack/"
   weight = 2
 
   [[main]]
-  identifier = "fins"
-  parent = "surfboard"
-  name = "Fins"
-  url = "products/surfboard/fins/"
+  identifier = "shop_deck_grip"
+  parent = "shop"
+  name = "Deck Grip"
+  url = "products/deck-grip/"
   weight = 3
 
   [[main]]
-  identifier = "used_surfboards"
-  parent = "surfboard"
-  name = "Used Surfboards"
-  url = "products/surfboard/used-surfboards/"
+  identifier = "shop_wax"
+  parent = "shop"
+  name = "Wax"
+  url = "products/wax/"
   weight = 4
 
-[[main]]
-identifier = "wetsuits"
-name = "Wetsuits"
-url = "products/wetsuits/"
-weight = 2
+  [[main]]
+  identifier = "shop_clothing"
+  parent = "shop"
+  name = "Clothing"
+  url = "products/clothing/"
+  weight = 5
 
   [[main]]
-  identifier = "repair"
-  parent = "wetsuits"
-  name = "Wetsuit Repair"
-  url = "products/wetsuits/repair/"
-  weight = 1
+  identifier = "shop_board_bags"
+  parent = "shop"
+  name = "Board Bags"
+  url = "products/board-bag/"
+  weight = 6
 
   [[main]]
-  identifier = "surf_hats"
-  parent = "wetsuits"
-  name = "Surf Hats"
-  url = "products/wetsuits/surf-hats/"
-  weight = 2
-
-[[main]]
-identifier = "mens"
-name = "Mens"
-url = "products/mens/"
-weight = 3
+  identifier = "shop_accessories"
+  parent = "shop"
+  name = "Accessories"
+  url = "products/accessory/"
+  weight = 7
 
   [[main]]
-  identifier = "mens_tees_tops"
-  parent = "mens"
-  name = "Mens Tees & Tops"
-  url = "products/mens/tees-tops/"
-  weight = 1
-
-[[main]]
-identifier = "womans"
-name = "Womans"
-url = "products/womans/"
-weight = 4
+  identifier = "shop_surfboards"
+  parent = "shop"
+  name = "Surfboards"
+  url = "products/surfboard/"
+  weight = 8
 
   [[main]]
-  identifier = "womans_tees_tops"
-  parent = "womans"
-  name = "Womans Tees & Tops"
-  url = "products/womans/tees-tops/"
-  weight = 1
+  identifier = "shop_fins"
+  parent = "shop"
+  name = "Fins"
+  url = "products/fin/"
+  weight = 9
 
-[[main]]
-identifier = "childrens"
-name = "Childrens"
-url = "products/childrens/"
-weight = 5
-
-  [[main]]
-  identifier = "childrens_tees_tops"
-  parent = "childrens"
-  name = "Childrens Tees & Tops"
-  url = "products/childrens/tees-tops/"
-  weight = 1
-
-[[main]]
-identifier = "watches"
-name = "Watches"
-url = "products/watches/"
-weight = 6
-
-  [[main]]
-  identifier = "black_watch"
-  parent = "watches"
-  name = "Black Watches"
-  url = "products/watches/black-watch/"
-  weight = 1
-
-  [[main]]
-  identifier = "other_watch"
-  parent = "watches"
-  name = "Other Watches"
-  url = "products/watches/other-watch/"
-  weight = 2
 
 [[main]]
 name = "Services"
-url = "/services/"
-weight = 7
+url = "/#services"
+weight = 2
 
 [[main]]
-name = "Blog"
-url = "http://localhost:1313/blog/"
-weight = 8
+identifier = "resources"
+name = "Resources"
+weight = 3
 
-[[main]]
-name = "About"
-url = "http://localhost:1313/about/"
-weight = 9
+  [[main]]
+  identifier = "blog"
+  parent = "resources"
+  name = "Blog"
+  url = "http://localhost:1313/blog/"
+  weight = 1
 
-[[main]]
-name = "Review"
-url = "/#testimonial"
-weight = 10
+  [[main]]
+  identifier = "about"
+  parent = "resources"
+  name = "About"
+  url = "http://localhost:1313/about/"
+  weight = 2
 
-[[main]]
-name = "Contact"
-url = "http://localhost:1313/contact/"
-weight = 11
+  [[main]]
+  identifier = "contact"
+  parent = "resources"
+  name = "Contact"
+  url = "http://localhost:1313/contact/"
+  weight = 3
 
+  [[main]]
+  identifier = "review"
+  parent = "resources"
+  name = "Testimonials"
+  url = "/#testimonial"
+  weight = 4
+
+  # Todo: Implement https://www.uccmotorhomes.co.nz/review
+  # [[main]]
+  # identifier = "leave_review"
+  # parent = "resources"
+  # name = "Leave a Review"
+  # url = "/#"
+  # weight = 5
+
+  # Todo: Implement
+  # [[main]]
+  # identifier = "fitness"
+  # parent = "resources"
+  # name = "Fitness"
+  # url = "http://localhost:1313/blog/" with some type of surf fitness taxonomy or even tag.
+  # weight = 6
+
+  [[main]]
+  identifier = "terms_conditions"
+  parent = "resources"
+  name = "Terms & Conditions"
+  url = "terms-conditions/"
+  weight = 7
 
 
 
@@ -167,7 +160,3 @@ name = "Terms & Conditions"
 url = "terms-conditions/"
 weight = 3
 
-[[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
-weight = 4
