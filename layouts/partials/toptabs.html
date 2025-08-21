@@ -1,5 +1,17 @@
-<nav class="top-tabs {{ .Site.Params.section }}">
-  <a href="{{ .Site.Params.motorhomeURL }}" class="{{ if in .Site.BaseURL "/motorhome/" }}active{{ end }}">Motorhomes</a>
-  <a href="{{ .Site.Params.surfURL }}" class="{{ if in .Site.BaseURL "/surf/" }}active{{ end }}">Surf</a>
+<nav class="top-tabs">
+  <div class="top-tabs-left">
+    <a href="{{ .Site.Params.coreURL }}" class="home-icon" aria-label="Home">
+      <!-- Inline SVG Home Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" 
+           viewBox="0 0 24 24" 
+           fill="currentColor" 
+           width="24" height="24">
+        <path d="M3 9.75L12 3l9 6.75V20a1 1 0 0 1-1 1h-5.25v-6h-5.5v6H4a1 1 0 0 1-1-1V9.75z"/>
+      </svg>
+    </a>
+  </div>
+  <div class="top-tabs-right {{ .Site.Params.section }}">
+    <a href="{{ .Site.Params.motorhomeURL }}" class="{{ if in .Site.BaseURL "/motorhome/" }}active{{ end }}">Motorhomes</a>
+    <a href="{{ .Site.Params.surfURL }}" class="{{ if in .Site.BaseURL "/surf/" }}active{{ end }}">Surf</a>
+  </div>
 </nav>
-
