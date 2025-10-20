@@ -21,7 +21,7 @@ deck-grip/models: ["generic"]
 
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/search?search_string=EpicLines%20Custom%20Cut%20Deck%20Grip"
 
 draft: false
 ---

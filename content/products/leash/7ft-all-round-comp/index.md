@@ -25,7 +25,7 @@ leash/target-wave-sizes: ["2-6 foot"]
 #productvariation_colours: ["black", "grey"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/leashes/search?search_string=EpicLines%20All%20Round%20Comp%20Leash%207FT,%206MM"
 
 draft: false
 

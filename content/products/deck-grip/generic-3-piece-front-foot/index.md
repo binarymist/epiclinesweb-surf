@@ -11,8 +11,8 @@ images:
 description : "Generic 3 piece front-foot deck-grip"
 
 # product Price
-price: "37.00"
-#discount_price: "25.00"
+price: "39.00"
+#discount_price: "37.00"
 
 # taxonomy
 deck-grip/foot-positions: ["front-foot"]
@@ -23,7 +23,7 @@ deck-grip/models: ["generic"]
 productvariation_colours: ["white", "black"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/search?search_string=EpicLines%203%20Piece%20Front%20Foot%20Surfboard%20Traction%20Pad"
 
 draft: false
 

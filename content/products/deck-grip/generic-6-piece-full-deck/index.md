@@ -11,7 +11,7 @@ images:
 description : "Generic 6 piece full-deck"
 
 # product Price
-price: "77.00"
+price: "79.00"
 #discount_price: "25.00"
 
 # taxonomy
@@ -23,7 +23,7 @@ deck-grip/models: ["generic"]
 productvariation_colours: ["green and black", "red and black"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/search?search_string=EpicLines%206%20Piece%20Full%20Deck%20Surfboard%20Traction%20Pad"
 
 draft: false
 ---

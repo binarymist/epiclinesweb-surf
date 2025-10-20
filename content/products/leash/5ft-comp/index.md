@@ -24,7 +24,7 @@ leash/target-wave-sizes: ["0-4 foot"]
 #productvariation_colours: ["black", "grey"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/leashes/search?search_string=EpicLines%20Competition%20Leash%205FT,%205MM"
 
 draft: false
 

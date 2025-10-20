@@ -11,7 +11,7 @@ images:
 description : "Wetsuit heatseal tape"
 
 # product Price
-price: "23.00"
+price: "25.00"
 #discount_price: "25.00"
 
 # taxonomy
@@ -21,7 +21,7 @@ accessory/colours: ["black", "grey"]
 productvariation_colours: ["black", "grey"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/wetsuits-lifejackets/search?search_string=EpicLines%20Wetsuit%20heatseal%20tape"
 
 draft: false
 ---
