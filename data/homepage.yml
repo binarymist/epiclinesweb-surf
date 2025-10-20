@@ -109,25 +109,20 @@ testimonial:
   title: "Watch Review"
   testimonial_item:
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
-      image: "images/avater.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name: "Tina Cornwell"
+      designation: "Opotiki"
+      image: "images/TinaCornwell.jpeg"
+      content: "I purchased the heat seal tape and was impressed by the excellent communication, fast postage, and great customer service. The team was approachable, helpful, and made the whole experience really easy."
 
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
-      image: "images/avater.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name: "Tatai Kutia"
+      designation: "Gisborne"
+      image: "images/TataiKutia.jpeg"
+      content: "These are the thickest leg ropes that I could find available in NZ in lengths less than 10ft which makes them extra strong and durable, perfect for larger volume boards and surfing big waves, super fast delivery and excellent quality product, extremely happy customer, support NZ made local suppliers!!"
 
     # testimonial item loop
-    - name: "Jonathon Andrew"
-      designation: "CEO, Themefisher"
+    - name: "Chae Bruce"
+      designation: "Coromandel"
       image: "images/avater.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      content: "I have recently purchased 2 of the full deck grip pads from EpicLines, it can be hard to find pads that are wide enough to fit bigger boards. These pads solve that problem, well made, good grip and excellent adhesive, i am quite happy with my purchase."
 
-    # testimonial item loop
-    - name: "Matt Archibold"
-      designation: "CEO, Themefisher"
-      image: "images/watch.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."      

@@ -1,7 +1,12 @@
+$epiclines-grey: rgba(0, 0, 0, 0.7);
+$epiclines-blue: rgb(106, 156, 192);
+$epiclines-green: rgb(114, 176, 170);
+
+
 /* Wrapper background for inactive site */
 .top-tabs-wrapper.motorhome,
 .top-tabs-wrapper.surf {
-  background-color: rgba(0, 0, 0, 0.7); /* Brown for inactive site */
+  background-color: $epiclines-grey;
 }
 
 /* Tabs layout inside container */
@@ -60,9 +65,9 @@
 
 /* Active tab overrides background to match section */
 .top-tabs-wrapper.motorhome .top-tabs a.active {
-  background-color: #0056b3; /* Motorhome Blue */
+  background-color: $epiclines-blue;
 }
 
 .top-tabs-wrapper.surf .top-tabs a.active {
-  background-color: #2a8a1f; /* Surf Green */
+  background-color: $epiclines-green;
 }

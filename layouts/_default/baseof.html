@@ -4,8 +4,8 @@
 
 <body id="body">
 	{{- partial "preloader.html" . -}}
-	{{- partial "header.html" . -}}
-	{{- block "main" . }}{{- end }}
+	<div id="content-wrapper">{{- partial "header.html" . -}}
+	{{- block "main" . }}{{- end }}</div>
 	{{- partial "footer.html" . -}}
 </body>
 
