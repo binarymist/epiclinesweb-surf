@@ -39,8 +39,8 @@ This leash provides performance with extra durability/strength so you can show f
 * **Cord material:** ultra-durable, lightweight urethane
 * **Cord Ø:** 6mm
 * **Target Wave Size:** 2-6ft
-* **Cuff:** 50mm neoprene padded, super low-profile, Anti-Slip, quick release tab
-* **Swivels:** 2 x marine grade stainless steel, free-spin, with extra marine coating
+* **Cuff:** 50mm neoprene padded, super low-profile, Anti-Slip, quick-release tab
+* **Swivels:** 2 x marine-grade stainless steel, free-spin, with extra marine coating
 * **Railsaver:** detachable
 
 ## Design decisions

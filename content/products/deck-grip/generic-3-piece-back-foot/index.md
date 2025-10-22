@@ -25,7 +25,7 @@ button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/search?sear
 draft: false
 ---
 
-Closed cell waterproof EVA, 3M high-grade adhesive formula, offers maximum, long-lasting adhesion in water.
+Closed-cell waterproof EVA, 3M high-grade adhesive formula, offers maximum, long-lasting adhesion in water.
 
 <ul>
 <li>Length: 310mm</li>
@@ -35,4 +35,4 @@ Closed cell waterproof EVA, 3M high-grade adhesive formula, offers maximum, long
 <li>Tread Pattern: Diamond</li>
 </ul>
 
-We have used these traction pads on our boards which we surf all around New Zealand, the Pacific Islands, and Indonesia, and have found them to be excellent!
+We have used these traction pads on our boards, which we surf all around New Zealand, the Pacific Islands, and Indonesia, and have found them to be excellent!

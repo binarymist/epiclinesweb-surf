@@ -1,9 +1,9 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "Believe in Technology, Make the change"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image: "images/watch.png"
+  title: "New Zealands Own Surf Accessories"
+  content: "We're done watching the surf industry put its bottom line before the lineup. **_EpicLines_** is a brand founded on the simple truth: surfers deserve better. We're dedicated to shifting the focus back to **authentic quality and the vibrant community** that sustains our sport. This is our wave of change."
+  image: "images/banner_min.png"
   button:
     enable: true
     label: "Browse All Products"
@@ -12,82 +12,50 @@ banner:
 ############################# Feature ############################
 features:
   enable: true
-  title: "Our Core Features"
-  image: "images/watch-2.png"
+  title: "Our Core Values"
+  image: "images/products/leashes/both-ends.jpg"
 
   # feature at the left of the image
   left_side:
     # feature item loop
-    - title: "Smooth Touch"
+    - title: "Customer Support"
       icon: "tf-ion-ios-alarm-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "We are wholly committed to putting you first, whether you are on the road or in the water. If we ever fail your expectations, know that we will at least die trying to make it right."
 
       # feature item loop
-    - title: "Elegant Design"
+    - title: "We Surf & Travel"
       icon: "tf-ion-ios-bell-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "That’s right, we are remote working, surfing nomads who understand your needs, from high-capacity solar in our motorhomes to specialized surf gear. We welcome your feedback to ensure we constantly get it right."
 
       # feature item loop
-    - title: "Easy Pricing"
+    - title: "Design Heritage"
       icon: "tf-ion-ios-cart-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "We actively reject modern trends by restoring the bold, radical design ethos of surfing's golden era. Every product is optimized for the demanding, self-sufficient lifestyle of the modern traveler and explorer."
 
   # feature at the right of the image
   right_side:
     # feature item loop
-    - title: "Smooth Touch"
+    - title: "Uncompromising Quality"
       icon: "tf-ion-ios-alarm-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "Every product is built to a perfectionist's standard with no stone left unturned. This meticulous process ensures longevity and reliable performance."
 
       # feature item loop
-    - title: "Elegant Design"
+    - title: "Engineered Self-Sufficiency"
       icon: "tf-ion-ios-bell-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "Our deep engineering expertise guarantees superior technical integration and resilience. This ensures you have the essential capability to live, and work wherever your journey takes you, without compromise."
 
       # feature item loop
-    - title: "Easy Pricing"
+    - title: "Ethical Business"
       icon: "tf-ion-ios-cart-outline"
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      content: "We stand against corporate noise by making the surfing and traveling community our core priority. We promise to deliver genuine value, never prioritizing profit over the people we serve."
 
 ############################# promo ############################
 promo:
   enable: true
-  image: "images/watch.png"
-  title: "Designed by professional , the benefit for creative gigs"
+  image: "images/promo_min.jpeg"
+  title: "Designed for ourselves,<br>offered to you"
   content:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-    nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-    <br><br>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
-
-############################# About Product #######################
-about_product:
-  enable: true
-  title: "Services We Offer"
-  items:
-    # about product item loop
-    - image: "images/showcase/showcase-4.png"
-      title: "Surfboard Repair"
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-        quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable: true
-        label: "Learn More"
-        link: "/surf/service/surfboard-repair/"
-
-    # about product item loop
-    - image: "images/showcase/showcase-3.png"
-      title: "Wetsuit Repair"
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-        quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable: true
-        label: "Learn More"
-        link: "/surf/service/wetsuit-repair/"
+    "At _EpicLines_ Surf, we're actively rejecting the current direction of the big surf labels, who have conspicuously abandoned the radical, creative designs we once loved. Our entire mission is to meticulously bring back those classic, old-school designs and the time-honored methods of creating surfing accessories that are now sorely missed."
 
 #################################### Products ########################
 products:
@@ -95,18 +63,55 @@ products:
   title: "Products"
   content: "Check out our range of surfboard racks, leashes, grips, and accessories designed and engineered in New Zealand."
 
+############################# About Product #######################
+about_product:
+  enable: true
+  title: "Services We Offer"
+  items:
+    # about product item loop
+    - image: "images/surfboard-repair_min.jpeg"
+      title: "Surfboard Repair"
+      content:
+        "
+        <i class='tf-ion-waterdrop'></i> &nbsp; Polyester Repairs<br>
+        <i class='tf-ion-waterdrop'></i> &nbsp; Epoxy Repairs<br>
+        <i class='tf-ion-waterdrop'></i> &nbsp; Small Jobs<br>
+        <i class='tf-ion-waterdrop'></i> &nbsp; Large Jobs<br>
+        "
+      button:
+        enable: true
+        label: "Learn More"
+        link: "/surf/service/surfboard-repair/"
+
+    # about product item loop
+    - image: "images/products/accessory/heatseal-tape/taped-wetsuite.jpg"
+      title: "Wetsuit Repair"
+      content:
+        "
+        <i class='tf-ion-scissors'></i> &nbsp; All brands<br>
+        <i class='tf-ion-scissors'></i> &nbsp; Fin cuts<br>
+        <i class='tf-ion-scissors'></i> &nbsp; Reff grazes<br>
+        <i class='tf-ion-scissors'></i> &nbsp; Dog bites<br>
+        <i class='tf-ion-scissors'></i> &nbsp; Beach fire buns<br>
+        <i class='tf-ion-scissors'></i> &nbsp; Summer to winter suit conversion<br>
+        "
+      button:
+        enable: true
+        label: "Learn More"
+        link: "/surf/service/wetsuit-repair/"
+
 ################################## Subscription ###################
 subscription:
   enable: true
-  bg_image: "images/call-to-action.jpg"
-  title: "Get Product Updates"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  bg_image: "images/call-to-action_min.png"
+  title: "Subscribe to our newsletter"
+  content: "Unsubscribe any time"
   placeholder: "Your Email Address Here"
 
 ############################## Testimonial ##########################
 testimonial:
   enable: true
-  title: "Watch Review"
+  title: "What Our Customers Say"
   testimonial_item:
     # testimonial item loop
     - name: "Tina Cornwell"

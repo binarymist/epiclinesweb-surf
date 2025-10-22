@@ -34,4 +34,4 @@ Great for extending standard traction pads to work for mals/mini mals, or wherev
 
 We can also supply full long board and SUP grips.
 
-just let us know what shape, size, and number of pieces you require and we will cut them and send you an invoice.
+Just let us know what shape, size, and number of pieces you require and we will cut them and send you an invoice.

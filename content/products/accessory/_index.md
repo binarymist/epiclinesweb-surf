@@ -7,4 +7,4 @@ taxonomy_prefix: "accessory"
 
 Surf accessories section.
 
-Complete your surfing lifestyle with _EpicLines_ (New Zealand surfers) range of essential surf gears. Everything in this section is used by us.
+Complete your surfing lifestyle with _EpicLines_ (New Zealand surfers)' range of essential surf gear. Everything in this section is used by us.

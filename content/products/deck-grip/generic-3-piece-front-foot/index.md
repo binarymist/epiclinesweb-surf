@@ -30,15 +30,15 @@ draft: false
 
 ---
 
-Closed cell waterproof EVA, 3M high-grade adhesive formula, offers maximum, long-lasting adhesion in water.
+Closed-cell waterproof EVA, 3M high-grade adhesive formula, offers maximum, long-lasting adhesion in water.
 
 * Length: 486mm
 * Width: 360mm
 * Tread Pattern: Diamond
 * Colour: White
 
-No more grotty wax all over your wetties, no more forgetting your wax or wax comb, and far superior grip to wax. Apply this grip and never have to think about wax again.
+No more grotty wax all over your wetties, no more forgetting your wax or wax comb, and a far superior grip to wax. Apply this grip and never have to think about wax again.
 
-We have used these traction pads on our boards which we surf all around New Zealand, the Pacific Islands, and Indonesia, and have found them to be excellent!
+We have used these traction pads on our boards, which we surf all around New Zealand, the Pacific Islands, and Indonesia, and have found them to be excellent!
 
 

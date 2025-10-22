@@ -33,6 +33,6 @@ Closed-cell waterproof EVA, high-grade adhesive formula, offers maximum, long-la
 Arch supports for front and back pads.
 30mm back-foot block.
 
-No more grotty wax all over your wetties, no more forgetting your wax or wax comb, and far superior grip to wax.
+No more grotty wax all over your wetties, no more forgetting your wax or wax comb, and a far superior grip to wax.
 
-We have used this full-deck traction pad on one of our Pyzel daily drivers and grovelers which we surf all around New Zealand, the Pacific Islands, and Indonesia, and love this full-deck grip!
+We have used this full-deck traction pad on one of our Pyzel daily drivers and grovelers, which we surf all around New Zealand, the Pacific Islands, and Indonesia, and love this full-deck grip!

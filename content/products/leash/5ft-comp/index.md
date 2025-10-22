@@ -38,17 +38,17 @@ Our small wave performance surf leash, for less bulk and drag to elevate your ri
 * **Cord material:** ultra-durable, lightweight urethane
 * **Cord Ø:** 5mm
 * **Target Wave Size:** 0-4ft
-* **Cuff:** 50mm neoprene padded, super low-profile, Anti-Slip, quick release tab
-* **Swivels:** 2 x marine grade stainless steel, free-spin, with extra marine coating
+* **Cuff:** 50mm neoprene padded, super low-profile, Anti-Slip, quick-release tab
+* **Swivels:** 2 x marine-grade stainless steel, free-spin, with extra marine coating
 * **Railsaver:** detachable
 
 ## Design decisions
 
 Four decades of surfing experience has shaped our design. We created leashes that perform under pressure.
 
-We designed lightweight, yet strong low-profile cuffs with _EpicLines_ gel print for secure, easy strapping.  
+We designed lightweight, yet strong, low-profile cuffs with _EpicLines_ gel print for secure, easy strapping.  
 Double swivels reduce tangles and keep the leash out of your pop-up zone.  
-Quick release tab instantly frees you in emergencies.  
+The quick-release tab instantly frees you in emergencies.  
 Soft and strong detachable railsaver allows for fast leash swapping.  
 We rigorously test each model for breaking tension.  
 Our leashes come in different cord thicknesses: thinner for smaller waves to reduce drag and thicker for bigger waves to provide confidence and security.  

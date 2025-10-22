@@ -26,13 +26,13 @@ button_link: "https://www.trademe.co.nz/a/marketplace/sports/wetsuits-lifejacket
 draft: false
 ---
 
-Elastic iron on seam sealing hot melt waterproof wetsuit repair tape.
+Elastic iron-on seam sealing hot melt waterproof wetsuit repair tape.
 Also useful for ironing onto raincoats, waders, footwear, military uniforms, etc.
 3-Layer high-performance waterproof fabric.
 
-This will repair many types of rips, tears, and ladders in wetsuits and all sorts of clothing. One of our staff was involved in pioneering the repair of wetsuits at Canterbury Wetsuits, and has been using this tape for 34 years to repair all of their wetsuits, and of course lots of other items.
+This will repair many types of rips, tears, and ladders in wetsuits and all sorts of clothing. One of our staff was involved in pioneering the repair of wetsuits at Canterbury Wetsuits and has been using this tape for 34 years to repair all of their wetsuits, and of course lots of other items.
 
-You can also use it to convert your summer wet suit into a winter wetsuit simply by applying it to the seams on the inside and saving a huge amount of money.
+You can also use it to convert your summer wetsuit into a winter wetsuit simply by applying it to the seams on the inside and saving a huge amount of money.
 
 * Length: 3 Meters
 * Width: 20mm
