@@ -68,3 +68,36 @@ frontend:
     paths:
       - ${HUGO_CACHEDIR}/**/*
       - ${NPM_CONFIG_CACHE}/**/*
+  customHeaders:
+    - pattern: "**/*.woff2"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://www.epiclines.nz"
+    - pattern: "**/*.woff"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://www.epiclines.nz"
+    - pattern: "**/*.ttf"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://www.epiclines.nz"
+    - pattern: "**/*.eot"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://www.epiclines.nz"
+    - pattern: "**/*.woff2"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://epiclines.nz"
+    - pattern: "**/*.woff"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://epiclines.nz"
+    - pattern: "**/*.ttf"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://epiclines.nz"
+    - pattern: "**/*.eot"
+      headers:
+        - key: "Access-Control-Allow-Origin"
+          value: "https://epiclines.nz"
