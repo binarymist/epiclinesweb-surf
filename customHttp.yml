@@ -1,0 +1,23 @@
+customHeaders:
+  - pattern: "**/*.woff2"
+    headers:
+      - key: "Access-Control-Allow-Origin"
+        value: "https://www.epiclines.nz"
+  - pattern: "**/*.woff"
+    headers:
+      - key: "Access-Control-Allow-Origin"
+        value: "https://www.epiclines.nz"
+  - pattern: "**/*.ttf"
+    headers:
+      - key: "Access-Control-Allow-Origin"
+        value: "https://www.epiclines.nz"
+  - pattern: "**/*.eot"
+    headers:
+      - key: "Access-Control-Allow-Origin"
+        value: "https://www.epiclines.nz"
+
+  - pattern: "*"
+    headers:
+      - key: 'Cache-Control'
+        value: 'no-store, no-cache, max-age=0, must-revalidate'
+
