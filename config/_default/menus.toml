@@ -85,21 +85,21 @@ weight = 3
   identifier = "blog"
   parent = "resources"
   name = "Blog"
-  url = "https://epiclines.nz/blog/"
+  url = "https://www.epiclines.nz/blog/"
   weight = 1
 
   [[main]]
   identifier = "about"
   parent = "resources"
   name = "About"
-  url = "https://epiclines.nz/about/"
+  url = "https://www.epiclines.nz/about/"
   weight = 2
 
   [[main]]
   identifier = "contact"
   parent = "resources"
   name = "Contact"
-  url = "https://epiclines.nz/contact/"
+  url = "https://www.epiclines.nz/contact/"
   weight = 3
 
   [[main]]
@@ -133,25 +133,18 @@ weight = 3
   weight = 7
 
 
-
-
-
 # add params.newTab = true to any menu item you want to be opened in a new tab.
-
-
-
-
 
 
 # footer menu
 [[footer]]
 name = "Blog"
-url = "https://epiclines.nz/blog/"
+url = "https://www.epiclines.nz/blog/"
 weight = 1
 
 [[footer]]
 name = "Contact"
-url = "https://epiclines.nz/contact/"
+url = "https://www.epiclines.nz/contact/"
 weight = 2
 
 [[footer]]
