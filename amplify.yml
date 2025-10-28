@@ -59,7 +59,7 @@ frontend:
         - echo "Building site..."
         # Temporary override for the coreURL, motorhomeURL, surfURL links target until domains are hooked up.
         # - HUGO_PARAMS_COREURL="https://main.d367r5fsm49ce9.amplifyapp.com/" HUGO_PARAMS_MOTORHOMEURL="https://main.d81bewa8vhdxu.amplifyapp.com/motorhome/" HUGO_PARAMS_SURFURL="https://main.d36w45optkglry.amplifyapp.com/surf/" hugo --gc --minify --baseURL "$AMPLIFY_BASE_URL"surf/
-        - hugo --gc --minify --baseURL "$AMPLIFY_BASE_URL"surf/
+        - hugo --gc --minify
   artifacts:
     baseDirectory: public
     files:
