@@ -149,6 +149,6 @@ weight = 2
 
 [[footer]]
 name = "Terms & Conditions"
-url = "terms-conditions/"
+url = "https://www.epiclines.nz/surf/terms-conditions/"
 weight = 3
 
