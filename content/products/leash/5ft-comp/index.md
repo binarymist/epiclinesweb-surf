@@ -1,8 +1,8 @@
 ---
 title: "Competition Leash 5 Ft"
-date: 2019-10-17T11:22:16+06:00
+date: 2025-10-03T11:22:16+06:00
 images:
-  - "images/products/leashes/5ft-comp/5ft-comp.jpg"
+  - "images/products/leashes/5ft-comp/5ft-comp_min.jpg"
   - "images/products/leashes/both-ends.jpg"
   - "images/products/leashes/standout.jpg"
   - "images/products/leashes/gel-print.jpg"
@@ -44,14 +44,15 @@ Our small wave performance surf leash, for less bulk and drag to elevate your ri
 
 ## Design decisions
 
-Four decades of surfing experience has shaped our design. We created leashes that perform under pressure.
+Four decades of surfing experience have shaped our design. We created leashes that perform under pressure.
 
-We designed lightweight, yet strong, low-profile cuffs with _EpicLines_ gel print for secure, easy strapping.  
-Double swivels reduce tangles and keep the leash out of your pop-up zone.  
-The quick-release tab instantly frees you in emergencies.  
-Soft and strong detachable railsaver allows for fast leash swapping.  
-We rigorously test each model for breaking tension.  
-Our leashes come in different cord thicknesses: thinner for smaller waves to reduce drag and thicker for bigger waves to provide confidence and security.  
+<i class='tf-ion-waterdrop'></i> &nbsp; We designed lightweight, yet strong, low-profile cuffs with _EpicLines_ gel print for secure, easy strapping.<br>
+<i class='tf-ion-waterdrop'></i> &nbsp; Double swivels reduce tangles and keep the leash out of your pop-up zone.<br>
+<i class='tf-ion-waterdrop'></i> &nbsp; The quick-release tab instantly frees you in emergencies.<br>
+<i class='tf-ion-waterdrop'></i> &nbsp; Soft and strong detachable railsaver allows for fast leash swapping.<br>
+<i class='tf-ion-waterdrop'></i> &nbsp; We rigorously test each model for breaking tension.<br>
+<i class='tf-ion-waterdrop'></i> &nbsp; Our leashes come in different cord thicknesses: thinner for smaller waves to reduce drag and thicker for bigger waves to provide confidence and security.<br>
+
 Choose the right leash for your board type and length, wave conditions, and lineup crowd.
 
 Designed by _EpicLines_ (New Zealand surfers) for wherever your travels may take you.
