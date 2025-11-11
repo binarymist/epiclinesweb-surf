@@ -2,43 +2,46 @@
 title: "Wetsuit Repair"
 description : "We can repair your wetsuits"
 draft: false
-note: Similar to https://jlcoachbuilders.co.nz/fifth-wheel-services-in-christchurch/ and https://binarymist.io/project/service-development-team-security-teardown/
 ---
 
-This page describes what we can do for you in terms of carrying out repairs on your wetsuits.
+### 🌊 Expert Wetsuit Repair: Keep Your Suit Watertight
 
-Coming soon...
+Our repair work is rooted in historical industry knowledge. One of our team members worked at Canterbury Wetsuits (now known as SeventhWave) from 1989 to 1992, gaining foundational experience in wetsuit construction and repair techniques.
 
-Until then, please contact us [here]({{% param "coreURL" %}}contact/)
+This deep, hands-on knowledge ensures we provide precise, durable repairs that maintain the **warmth and structural integrity** of your suit.
 
-<!--
+<br>
 
-https://www.seventhwave.co.nz/pages/repairs
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+### 🧵 Highest Standard of Workmanship
 
-### Product Buy & delivery policy
+We provide competitive pricing without compromising on quality. Every repair is performed with meticulous attention to detail, using professional-grade materials to ensure your suit remains watertight and functional.
 
-1)All payments are processed securely through PayPal or Stripe. Themefisher does not directly process payments through the website. So any kind of Problem if you face Themefisher will Not Take any responsibility.
+<br>
 
-### Product Buy & delivery policy
+### 📋 Our Specialised Repair Services
 
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+We focus exclusively on repairing common and serious neoprene damage:
 
-### Refund Policy
+**Rips, Tears, & Holes:** Repair of accidental damage, including fin cuts, reef grazes, and dog bites.
 
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
+**Major Damage Repair:** Fixing large tears and damage from unique causes, such as beach fire burns.
 
-### Support Policy
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
+<br>
 
-### Why We Support:
+### 💰 The Affordable Winter Suit Solution
 
-1. Support covers getting up and help in theme setup
-2. Help using features and theme options
-3. Bug fixes – if you discovered a bug in the theme/Template we will fix it
-4. Functionality which does not work as advertised
--->
+We offer a unique modification service to maximise the value of your wettie:
+
+**Summer-to-Winter Conversion:** Professionally modify your existing summer suit for cold-weather use. This service offers you the warmth you need at a **fraction of the cost** of buying an entirely new winter suit—meaning you won't have to part with an arm or a leg to afford to stay warm!
+
+<br>
+
+### 📞 Ready for a Repair Estimate?
+
+For a quote on your suit or a modification, please:
+
+* [**Call us**]({{% param "coreURL" %}}contact/)
+* [**Email photos**]({{% param "coreURL" %}}contact/) of the damage for an initial assessment
+* [**Visit our workshop**]({{% param "coreURL" %}}contact/) during business hours for a free assessment and a chat!
+
+> A 6-month workmanship guarantee backs all neoprene repairs.
