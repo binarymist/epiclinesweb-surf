@@ -12,7 +12,7 @@ images:
 description : "Floor standing wave surfboard rack"
 
 # product Price
-price: "350.00"
+price: "419.00"
 #discount_price: "25.00"
 
 # taxonomy
