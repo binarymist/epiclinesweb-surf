@@ -1,6 +1,6 @@
 ---
 title: "Surfboard Repair"
-description : "this is a meta description"
+description : "Surfboard Repairs"
 draft: false
 ---
 
@@ -32,8 +32,8 @@ We handle all materials and damage types:
 
 For a fast, accurate quote, please:
 
-* [**Call us**]({{% param "coreURL" %}}contact/)
-* [**Email photos**]({{% param "coreURL" %}}contact/) of the damage
+* [**Call or TXT us**]({{% param "coreURL" %}}contact/) to discuss repairs
+* [**Email us**]({{% param "coreURL" %}}contact/) detailed photos of the damage for repair quotes
 * [**Visit our workshop**]({{% param "coreURL" %}}contact/) during business hours for a free assessment and a chat!
 
 > A 6-month workmanship guarantee backs all structural repairs.

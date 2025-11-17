@@ -22,9 +22,8 @@ We provide competitive pricing without compromising on quality. Every repair is 
 
 We focus exclusively on repairing common and serious neoprene damage:
 
-**Rips, Tears, & Holes:** Repair of accidental damage, including fin cuts, reef grazes, and dog bites.
-
-**Major Damage Repair:** Fixing large tears and damage from unique causes, such as beach fire burns.
+* **Rips, Tears, & Holes:** Repair of accidental damage, including fin cuts, reef grazes, and dog bites
+* **Major Damage Repair:** Fixing large tears and damage from unique causes, such as beach fire burns
 
 <br>
 
@@ -40,8 +39,8 @@ We offer a unique modification service to maximise the value of your wettie:
 
 For a quote on your suit or a modification, please:
 
-* [**Call us**]({{% param "coreURL" %}}contact/)
-* [**Email photos**]({{% param "coreURL" %}}contact/) of the damage for an initial assessment
+* [**Call or TXT us**]({{% param "coreURL" %}}contact/) to discuss repairs
+* [**Email us**]({{% param "coreURL" %}}contact/) detailed photos of the damage for repair quotes
 * [**Visit our workshop**]({{% param "coreURL" %}}contact/) during business hours for a free assessment and a chat!
 
 > A 6-month workmanship guarantee backs all neoprene repairs.
