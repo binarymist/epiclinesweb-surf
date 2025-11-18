@@ -16,8 +16,31 @@ customHeaders:
       - key: "Access-Control-Allow-Origin"
         value: "https://www.epiclines.nz"
 
-  - pattern: "*"
+#  - pattern: "*"
+#    headers:
+#      - key: 'Cache-Control'
+#        value: 'no-store, no-cache, max-age=0, must-revalidate'
+
+  # Long-term caching for static assets
+  - pattern: '**.js'
     headers:
       - key: 'Cache-Control'
-        value: 'no-store, no-cache, max-age=0, must-revalidate'
+        value: 'public, max-age=31536000, immutable' # 1 Year Cache
+  - pattern: '**.css'
+    headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable' # 1 Year Cache
+  - pattern: '**/*.{jpg,png,svg,webp}'
+    headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable' # 1 Year Cache
 
+  # Short caching for HTML files
+  - pattern: 'index.html'
+    headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=60' # 60 Seconds Cache
+  - pattern: '*/' # For directory-based HTML (optional, depends on Hugo structure)
+    headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=60'
