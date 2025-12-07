@@ -2,10 +2,10 @@
 title: "Generic 3 Piece Back-Foot"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/deck-grip/generic-3-piece-back-foot/main.jpg"
-  - "images/products/deck-grip/generic-3-piece-back-foot/arch.jpg"
-  - "images/products/deck-grip/generic-3-piece-back-foot/thickness.jpg"
-  - "images/products/deck-grip/generic-3-piece-back-foot/back.jpg"
+  - "images/products/deck-grip/generic-3-piece-back-foot/main_min.jpg"
+  - "images/products/deck-grip/generic-3-piece-back-foot/arch_min.jpg"
+  - "images/products/deck-grip/generic-3-piece-back-foot/thickness_min.jpg"
+  - "images/products/deck-grip/generic-3-piece-back-foot/back_min.jpg"
 
 # meta description
 description : "Generic 3 piece back-foot deck-grip"

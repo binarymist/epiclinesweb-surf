@@ -3,11 +3,11 @@ title: "Charger 12 Ft"
 date: 2025-10-17T11:22:16+06:00
 images:
   - "images/products/leashes/12ft-charger/12ft-charger_min.jpg"
-  - "images/products/leashes/both-ends.jpg"
-  - "images/products/leashes/standout.jpg"
-  - "images/products/leashes/gel-print.jpg"
-  - "images/products/leashes/card.jpg"
-  - "images/products/leashes/matrix.jpg"
+  - "images/products/leashes/both-ends_min.jpg"
+  - "images/products/leashes/standout_min.jpg"
+  - "images/products/leashes/gel-print_min.jpg"
+  - "images/products/leashes/card_min.jpg"
+  - "images/products/leashes/matrix_min.jpg"
   
 
 # meta description

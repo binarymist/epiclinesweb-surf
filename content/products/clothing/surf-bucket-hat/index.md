@@ -2,12 +2,12 @@
 title: "Surf Bucket Hat"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/clothing/surf-bucket-hat/front-grey.jpg"
-  - "images/products/clothing/surf-bucket-hat/front-beige.jpg"
-  - "images/products/clothing/surf-bucket-hat/back.jpg"
-  - "images/products/clothing/surf-bucket-hat/inside.jpg"
-  - "images/products/clothing/surf-bucket-hat/spf50.jpg"
-  - "images/products/clothing/surf-bucket-hat/sizing.jpg"
+  - "images/products/clothing/surf-bucket-hat/front-grey_min.jpg"
+  - "images/products/clothing/surf-bucket-hat/front-beige_min.jpg"
+  - "images/products/clothing/surf-bucket-hat/back_min.jpg"
+  - "images/products/clothing/surf-bucket-hat/inside_min.jpg"
+  - "images/products/clothing/surf-bucket-hat/spf50_min.jpg"
+  - "images/products/clothing/surf-bucket-hat/sizing_min.jpg"
 
 # meta description
 description : "surf bucket hat"

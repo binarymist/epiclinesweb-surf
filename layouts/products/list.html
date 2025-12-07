@@ -36,7 +36,28 @@
                     </a>
                   </div>
                   {{ with index $product.Params.images 0 }}
-                    <img class="img-fluid" src="{{ . | absURL }}" alt="{{ $product.Title }}">
+                    {{/* warnf "1 products/list 🟢 : %+v" ( . ) }}
+                    {{ warnf "2 products/list 🟢 : %T" ( . ) */}}
+
+                    {{/* Create the resource from . */}}
+                    {{/* Fingerprint the resource */}}
+                    {{/* Create the copy */}}
+                    {{/* Pass the new resource path to data-image */}}
+                    {{/* Pass the new resource path to partial "image.html" */}}
+
+                    {{ $resourcePath := resources.Get . }}
+                    {{ $fingerprintedImage := $resourcePath | fingerprint }}
+                    {{- $imgResource := resources.Copy ($fingerprintedImage.RelPermalink | strings.TrimPrefix (printf "/%s" site.Params.section)) (resources.Get $resourcePath) -}}
+                    {{ $fingerprintedURL := $imgResource.Permalink }}
+
+                    {{/* warnf "3 products/list 🟢 : %+v" $imgResource }}
+                    {{ warnf "4 products/list 🟢 : %T" $imgResource }}
+                    {{ warnf "5 products/list 🟢 : %+v" $imgResource.Permalink }}
+                    {{ warnf "6 products/list 🟢 : %T" $imgResource.Permalink */}}
+
+                    {{/* warnf "7 products/list 🟢 : %+v" $fingerprintedURL }}
+                    {{ warnf "8 products/list 🟢 : %T" $fingerprintedURL */}}
+                    {{ partial "image.html" (dict "Src" $fingerprintedURL "Alt" $product.Title "Class" "img-fluid" ) }}
                   {{ else }}
                     <img class="img-fluid" src="/path/to/fallback-image.jpg" alt="No image available">
                   {{ end }}

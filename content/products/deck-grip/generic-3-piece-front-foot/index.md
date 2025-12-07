@@ -2,10 +2,10 @@
 title: "Generic 3 Piece Front"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/deck-grip/generic-3-piece-front-foot/main.jpg"
-  - "images/products/deck-grip/generic-3-piece-front-foot/white-front-foot.jpg"
-  - "images/products/deck-grip/generic-3-piece-front-foot/thickness.jpg"
-  - "images/products/deck-grip/generic-3-piece-front-foot/black-front-foot.jpg"
+  - "images/products/deck-grip/generic-3-piece-front-foot/main_min.jpg"
+  - "images/products/deck-grip/generic-3-piece-front-foot/white-front-foot_min.jpg"
+  - "images/products/deck-grip/generic-3-piece-front-foot/thickness_min.jpg"
+  - "images/products/deck-grip/generic-3-piece-front-foot/black-front-foot_min.jpg"
 
 # meta description
 description : "Generic 3 piece front-foot deck-grip"

@@ -3,11 +3,11 @@ title: "Competition Leash 5 Ft"
 date: 2025-10-03T11:22:16+06:00
 images:
   - "images/products/leashes/5ft-comp/5ft-comp_min.jpg"
-  - "images/products/leashes/both-ends.jpg"
-  - "images/products/leashes/standout.jpg"
-  - "images/products/leashes/gel-print.jpg"
-  - "images/products/leashes/card.jpg"
-  - "images/products/leashes/matrix.jpg"
+  - "images/products/leashes/both-ends_min.jpg"
+  - "images/products/leashes/standout_min.jpg"
+  - "images/products/leashes/gel-print_min.jpg"
+  - "images/products/leashes/card_min.jpg"
+  - "images/products/leashes/matrix_min.jpg"
 
 # meta description
 description : "Our small wave performance surf leash, for less bulk and drag to elevate your ride!"

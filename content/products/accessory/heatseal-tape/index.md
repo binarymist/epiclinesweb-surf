@@ -2,10 +2,10 @@
 title: "Heatseal Tape"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/accessory/heatseal-tape/tape-roll.jpg"
-  - "images/products/accessory/heatseal-tape/taped-wetsuite.jpg"
-  - "images/products/accessory/heatseal-tape/directions.jpg"
-  - "images/products/accessory/heatseal-tape/detail.jpg"
+  - "images/products/accessory/heatseal-tape/tape-roll_min.jpg"
+  - "images/products/accessory/heatseal-tape/taped-wetsuit_min.jpg"
+  - "images/products/accessory/heatseal-tape/directions_min.jpg"
+  - "images/products/accessory/heatseal-tape/detail_min.jpg"
 
 # meta description
 description : "Wetsuit heatseal tape"

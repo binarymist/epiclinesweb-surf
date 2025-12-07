@@ -7,9 +7,31 @@
         <!-- product image slider -->
         <div class="product-image-slider">
           {{ range .Params.images }}
-          <div data-image="{{ . | absURL }}">
-            {{ partial "image.html" (dict "Src" . "Alt" "product-image" "Class" "img-fluid w-100" ) }}
-          </div>
+          
+            {{/* warnf "1 our-builds/single 🟢 : %+v" ( . ) }}
+            {{ warnf "2 our-builds/single 🟢 : %T" ( . ) */}}
+
+            {{/* Create the resource from . */}}
+            {{/* Fingerprint the resource */}}
+            {{/* Create the copy */}}
+            {{/* Pass the new resource path to data-image */}}
+            {{/* Pass the new resource path to partial "image.html" */}}
+
+            {{ $resourcePath := resources.Get . }}
+            {{ $fingerprintedImage := $resourcePath | fingerprint }}
+            {{- $imgResource := resources.Copy ($fingerprintedImage.RelPermalink | strings.TrimPrefix (printf "/%s" site.Params.section)) (resources.Get $resourcePath) -}}
+            {{ $fingerprintedURL := $imgResource.Permalink }}
+
+            {{/* warnf "3 our-builds/single 🟢 : %+v" $imgResource }}
+            {{ warnf "4 our-builds/single 🟢 : %T" $imgResource }}
+            {{ warnf "5 our-builds/single 🟢 : %+v" $imgResource.Permalink }}
+            {{ warnf "6 our-builds/single 🟢 : %T" $imgResource.Permalink */}}
+          
+            {{/* warnf "7 our-builds/single 🟢 : %+v" $fingerprintedURL }}
+            {{ warnf "8 our-builds/single 🟢 : %T" $fingerprintedURL */}}
+            <div data-image="{{ $fingerprintedURL | absURL }}">
+              {{ partial "image.html" (dict "Src" $fingerprintedURL "Alt" "product-image" "Class" "img-fluid w-100" ) }}
+            </div>
           {{ end }}
         </div>
       </div>

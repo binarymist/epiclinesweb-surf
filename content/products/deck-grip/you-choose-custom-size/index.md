@@ -2,8 +2,8 @@
 title: "You Choose Custom Size"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/deck-grip/custom-cut/custom.jpg"
-  - "images/products/deck-grip/custom-cut/spud-with-custom.jpg"
+  - "images/products/deck-grip/custom-cut/custom_min.jpg"
+  - "images/products/deck-grip/custom-cut/spud-with-custom_min.jpg"
 
 # meta description
 description : "Custom cut"

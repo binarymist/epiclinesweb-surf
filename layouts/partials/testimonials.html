@@ -16,7 +16,27 @@
           <i class="tf-ion-quote"></i>
           <p>{{ .content | markdownify }}</p>
           <div class="author-details">
-            {{ partial "image.html" (dict "Src" .image "Alt" .name ) }}
+            {{/* warnf "1 partials/testimonials 🟢 : %+v" ( .image ) }}
+            {{ warnf "2 partials/testimonials 🟢 : %T" ( .image ) */}}
+
+            {{/* Create the resource from . image*/}}
+            {{/* Fingerprint the resource */}}
+            {{/* Create the copy */}}
+            {{/* Pass the new resource path to partial "image.html" */}}
+
+            {{ $resourcePath := resources.Get .image }}
+            {{ $fingerprintedImage := $resourcePath | fingerprint }}
+            {{- $imgResource := resources.Copy ($fingerprintedImage.RelPermalink | strings.TrimPrefix (printf "/%s" site.Params.section)) (resources.Get $resourcePath) -}}
+            {{ $fingerprintedURL := $imgResource.Permalink }}
+
+            {{/* warnf "3 partials/testimonials 🟢 : %+v" $imgResource }}
+            {{ warnf "4 partials/testimonials 🟢 : %T" $imgResource }}
+            {{ warnf "5 partials/testimonials 🟢 : %+v" $imgResource.Permalink }}
+            {{ warnf "6 partials/testimonials 🟢 : %T" $imgResource.Permalink */}}
+
+            {{/* warnf "7 partials/testimonials 🟢 : %+v" $fingerprintedURL }}
+            {{ warnf "8 partials/testimonials 🟢 : %T" $fingerprintedURL */}}
+            {{ partial "image.html" (dict "Src" $fingerprintedURL "Alt" .name ) }}
             <h4>{{ .name }}</h4>
             <span>{{ .designation }}</span>
           </div>

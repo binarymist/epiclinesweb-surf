@@ -2,10 +2,10 @@
 title: "Generic 6 Piece Full-Deck"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/deck-grip/generic-6-piece-full-deck/green-full.jpg"
-  - "images/products/deck-grip/generic-6-piece-full-deck/red-full.jpg"
-  - "images/products/deck-grip/generic-6-piece-full-deck/green-full-with-measurements.jpg"
-  - "images/products/deck-grip/generic-6-piece-full-deck/green-back-foot.jpg"
+  - "images/products/deck-grip/generic-6-piece-full-deck/green-full_min.jpg"
+  - "images/products/deck-grip/generic-6-piece-full-deck/red-full_min.jpg"
+  - "images/products/deck-grip/generic-6-piece-full-deck/green-full-with-measurements_min.jpg"
+  - "images/products/deck-grip/generic-6-piece-full-deck/green-back-foot_min.jpg"
 
 # meta description
 description : "Generic 6 piece full-deck"

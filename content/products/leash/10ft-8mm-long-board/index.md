@@ -3,11 +3,11 @@ title: "LongBoard Leash 10 Ft, 8 mm"
 date: 2025-10-13T11:22:16+06:00
 images:
   - "images/products/leashes/10ft-8mm-long-board/10ft-8mm-long-board_min.jpg"
-  - "images/products/leashes/both-ends.jpg"
-  - "images/products/leashes/standout.jpg"
-  - "images/products/leashes/gel-print.jpg"
-  - "images/products/leashes/card.jpg"
-  - "images/products/leashes/matrix.jpg"
+  - "images/products/leashes/both-ends_min.jpg"
+  - "images/products/leashes/standout_min.jpg"
+  - "images/products/leashes/gel-print_min.jpg"
+  - "images/products/leashes/card_min.jpg"
+  - "images/products/leashes/matrix_min.jpg"
   
 
 # meta description

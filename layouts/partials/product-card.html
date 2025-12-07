@@ -9,7 +9,16 @@
     </a>    
   </div>
   {{ with .Params.images }}
-    <img class="img-fluid" src="{{ index . 0 | relURL }}" alt="{{ $title }}">
+    {{/* warnf "1 product-card 🟢 : %+v" ( index . 0 | relURL ) }}
+    {{ warnf "2 product-card 🟢 : %T" ( index . 0 | relURL ) }}
+    {{ warnf "3 product-card 🟢 : %+v" (index . 0 | relURL | strings.TrimPrefix (printf "/%s" site.Params.section)) }}
+    {{ warnf "4 product-card 🟢 : %T" (index . 0 | relURL | strings.TrimPrefix (printf "/%s" site.Params.section)) */}}
+
+    {{ partial "image-fingerprint.html" (dict 
+      "src" (index . 0 | relURL | strings.TrimPrefix (printf "/%s" site.Params.section)) 
+      "alt" $title
+      "class" "img-fluid"
+    )}}
   {{ end }}
 </article>
 <div class="product-info">

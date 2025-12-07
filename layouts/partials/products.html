@@ -22,9 +22,19 @@
             </div>
             {{ $firstProduct := (index .Pages 0) }}
             {{ if $firstProduct }}
-            {{ with $firstProduct.Params.images }}
-            <img class="img-fluid" src="{{ range first 1 . }}{{ . | absURL }}{{ end }}" alt="{{ $firstProduct.Title }}">
-            {{ end }}
+              {{ with $firstProduct.Params.images }}
+                <!-- Doesn't work when hosted on amplify because it uses the amplify domain -->
+                {{/*<img class="img-fluid" src="{{ range first 1 . }}{{ . | absURL }}{{ end }}" alt="{{ $firstProduct.Title }}">*/}}
+                <!-- This works, but now that we are fingerprinting it needs to be replaced -->
+                {{/*<img class="img-fluid" src="{{ range first 1 . }}{{ . | relURL }}{{ end }}" alt="{{ $firstProduct.Title }}">*/}}
+                <!-- With this -->
+                {{/* partial "image-fingerprint.html" (dict "src" (.Params.image | relURL) "alt" .Title "class" "blog-card-image") */}}
+                {{ $imgURL := "" }}
+                {{ range first 1 . }}
+                  {{ $imgURL = . }}
+                {{ end }}
+                {{ partial "image-fingerprint.html" (dict "src" $imgURL "alt" $firstProduct.Title "class" "img-fluid") }}
+              {{ end }}
             {{ end }}
           </div>
           {{ end }}

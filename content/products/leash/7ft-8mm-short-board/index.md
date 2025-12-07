@@ -3,11 +3,11 @@ title: "ShortBoard Leash 7 Ft, 8 mm"
 date: 2025-10-10T11:22:16+06:00
 images:
   - "images/products/leashes/7ft-8mm-short-board/7ft-8mm-short-board_min.jpg"
-  - "images/products/leashes/both-ends.jpg"
-  - "images/products/leashes/standout.jpg"
-  - "images/products/leashes/gel-print.jpg"
-  - "images/products/leashes/card.jpg"
-  - "images/products/leashes/matrix.jpg"
+  - "images/products/leashes/both-ends_min.jpg"
+  - "images/products/leashes/standout_min.jpg"
+  - "images/products/leashes/gel-print_min.jpg"
+  - "images/products/leashes/card_min.jpg"
+  - "images/products/leashes/matrix_min.jpg"
 
 # meta description
 description : "An everyday shortboard leash for most conditions whether you are surfing soft 2ft, or pumping 12ft!"

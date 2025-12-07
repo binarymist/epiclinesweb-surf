@@ -1,21 +1,41 @@
 {{ $data := .Site.Data }}
 
 {{ if $data.homepage.promo.enable }}
-{{ with $data.homepage.promo }}
-<section class="bg-orange section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 text-center mb-5 mb-lg-0">
-        {{ partial "image.html" (dict "Src" .image "Alt" "image" "Class" "img-fluid" ) }}
-      </div>
-      <div class="col-md-6 align-self-center text-center text-md-left">
-        <div class="content">
-          <h2 class="subheading text-white mb-10">{{ .title | markdownify }}</h2>
-          <p class="text-white">{{ .content | markdownify }}</p>
+  {{ with $data.homepage.promo }}
+    <section class="bg-orange section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center mb-5 mb-lg-0">
+            {{/* warnf "1 partials/promo 🟢 : %+v" ( .image ) }}
+            {{ warnf "2 partials/promo 🟢 : %T" ( .image ) */}}
+
+            {{/* Create the resource from .image */}}
+            {{/* Fingerprint the resource */}}
+            {{/* Create the copy */}}
+            {{/* Pass the new resource path to partial "image.html" */}}
+
+            {{ $resourcePath := resources.Get .image }}
+            {{ $fingerprintedImage := $resourcePath | fingerprint }}
+            {{- $imgResource := resources.Copy ($fingerprintedImage.RelPermalink | strings.TrimPrefix (printf "/%s" site.Params.section)) (resources.Get $resourcePath) -}}
+            {{ $fingerprintedURL := $imgResource.Permalink }}
+
+            {{/* warnf "3 partials/promo 🟢 : %+v" $imgResource }}
+            {{ warnf "4 partials/promo 🟢 : %T" $imgResource }}
+            {{ warnf "5 partials/promo 🟢 : %+v" $imgResource.Permalink }}
+            {{ warnf "6 partials/promo 🟢 : %T" $imgResource.Permalink */}}
+
+            {{/* warnf "7 partials/promo 🟢 : %+v" $fingerprintedURL }}
+            {{ warnf "8 partials/promo 🟢 : %T" $fingerprintedURL */}}
+            {{ partial "image.html" (dict "Src" $fingerprintedURL "Alt" .alt_text "Class" "img-fluid" ) }}
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-left">
+            <div class="content">
+              <h2 class="subheading text-white mb-10">{{ .title | markdownify }}</h2>
+              <p class="text-white">{{ .content | markdownify }}</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-{{ end }}
+    </section>
+  {{ end }}
 {{ end }}

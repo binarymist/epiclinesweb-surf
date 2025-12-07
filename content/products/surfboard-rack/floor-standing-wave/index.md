@@ -2,11 +2,11 @@
 title: "Floor Standing Wave"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/surfboard-rack/floor-standing-wave/floor.jpg"
-  - "images/products/surfboard-rack/floor-standing-wave/main.jpg"
-  - "images/products/surfboard-rack/floor-standing-wave/boards-not-in-bags.jpg"
-  - "images/products/surfboard-rack/floor-standing-wave/boards-in-bags.jpg"
-  - "images/products/surfboard-rack/floor-standing-wave/empty.jpg"
+  - "images/products/surfboard-rack/floor-standing-wave/floor_min.jpg"
+  - "images/products/surfboard-rack/floor-standing-wave/main_min.jpg"
+  - "images/products/surfboard-rack/floor-standing-wave/boards-not-in-bags_min.jpg"
+  - "images/products/surfboard-rack/floor-standing-wave/boards-in-bags_min.jpg"
+  - "images/products/surfboard-rack/floor-standing-wave/empty_min.jpg"
 
 # meta description
 description : "Floor standing wave surfboard rack"

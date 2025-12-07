@@ -13,7 +13,7 @@ banner:
 features:
   enable: true
   title: "Our Core Values"
-  image: "images/products/leashes/both-ends.jpg"
+  image: "images/products/leashes/both-ends_min.jpg"
 
   # feature at the left of the image
   left_side:
@@ -54,6 +54,7 @@ promo:
   enable: true
   image: "images/promo_min.jpeg"
   title: "Designed for ourselves,<br>offered to you"
+  alt_text: "Designed for ourselves, offered to you"
   content:
     "At _EpicLines_ Surf, we're actively rejecting the current direction of the big surf labels, who have conspicuously abandoned the radical, creative designs we once loved. Our entire mission is to meticulously bring back those classic, old-school designs and the time-honored methods of creating surfing accessories that are now sorely missed."
 
@@ -84,7 +85,7 @@ about_product:
         link: "/surf/service/surfboard-repair/"
 
     # about product item loop
-    - image: "images/products/accessory/heatseal-tape/taped-wetsuite.jpg"
+    - image: "images/products/accessory/heatseal-tape/taped-wetsuit_min.jpg"
       title: "Wetsuit Repair"
       content:
         "
@@ -116,7 +117,7 @@ testimonial:
     # testimonial item loop
     - name: "Tina Cornwell"
       designation: "Opotiki"
-      image: "images/TinaCornwell.jpeg"
+      image: "images/TinaCornwell.png"
       content: "I purchased the heat seal tape and was impressed by the excellent communication, fast postage, and great customer service. The team was approachable, helpful, and made the whole experience really easy."
 
     # testimonial item loop
