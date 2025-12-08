@@ -19,34 +19,34 @@ features:
   left_side:
     # feature item loop
     - title: "Customer Support"
-      icon: "tf-ion-ios-alarm-outline"
+      icon: "tf-ion-ios-telephone"
       content: "We are wholly committed to putting you first, whether you are on the road or in the water. If we ever fail your expectations, know that we will at least die trying to make it right."
 
       # feature item loop
     - title: "We Surf & Travel"
-      icon: "tf-ion-ios-bell-outline"
+      icon: "tf-ion-android-subway"
       content: "That’s right, we are remote working, surfing nomads who understand your needs, from high-capacity solar in our motorhomes to specialized surf gear. We welcome your feedback to ensure we constantly get it right."
 
       # feature item loop
     - title: "Design Heritage"
-      icon: "tf-ion-ios-cart-outline"
+      icon: "tf-pencil2"
       content: "We actively reject modern trends by restoring the bold, radical design ethos of surfing's golden era. Every product is optimized for the demanding, self-sufficient lifestyle of the modern traveler and explorer."
 
   # feature at the right of the image
   right_side:
     # feature item loop
     - title: "Uncompromising Quality"
-      icon: "tf-ion-ios-alarm-outline"
+      icon: "tf-ion-star"
       content: "Every product is built to a perfectionist's standard with no stone left unturned. This meticulous process ensures longevity and reliable performance."
 
       # feature item loop
     - title: "Engineered Self-Sufficiency"
-      icon: "tf-ion-ios-bell-outline"
+      icon: "tf-gears"
       content: "Our deep engineering expertise guarantees superior technical integration and resilience. This ensures you have the essential capability to live, and work wherever your journey takes you, without compromise."
 
       # feature item loop
     - title: "Ethical Business"
-      icon: "tf-ion-ios-cart-outline"
+      icon: "tf-ion-android-contacts"
       content: "We stand against corporate noise by making the surfing and traveling community our core priority. We promise to deliver genuine value, never prioritizing profit over the people we serve."
 
 ############################# promo ############################
