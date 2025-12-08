@@ -1,33 +1,23 @@
 customHeaders:
-  # HTML Caching (Ensures freshness and long CDN cache)
-  - pattern: "/**/*.html"
-    headers:
-      - key: "Cache-Control"
-        value: "public, max-age=0, must-revalidate, s-maxage=31536005"
-
   # Includes the necessary CORS header for cross-origin font loading.
   - pattern: "**/*.woff2"
     headers:
       - key: "Access-Control-Allow-Origin"
         value: "https://www.epiclines.nz"
-        # defining Cache-control values are not honored by amplilfy.
   - pattern: "**/*.woff"
     headers:
       - key: "Access-Control-Allow-Origin"
         value: "https://www.epiclines.nz"
-        # defining Cache-control values are not honored by amplilfy.
   - pattern: "**/*.ttf"
     headers:
       - key: "Access-Control-Allow-Origin"
         value: "https://www.epiclines.nz"
-        # defining Cache-control values are not honored by amplilfy.
   - pattern: "**/*.eot"
     headers:
       - key: "Access-Control-Allow-Origin"
         value: "https://www.epiclines.nz"
-        # defining Cache-control values are not honored by amplilfy.
   - pattern: "**/*.svg" # Includes font SVG files
     headers:
       - key: "Access-Control-Allow-Origin"
         value: "https://www.epiclines.nz"
-        # defining Cache-control values are not honored by amplilfy.
+
