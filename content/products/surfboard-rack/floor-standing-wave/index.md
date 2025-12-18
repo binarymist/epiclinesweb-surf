@@ -30,7 +30,7 @@ draft: false
 
 > Currently out of stock.
 
-After many months of R&D, _EpicLines_ presents its lovingly engineered and crafted floor-standing surfboard rack, an aesthetically pleasing and functional way to store and showcase your quiver.
+After many months of R&D, _EpicLines_ presents its lovingly engineered and crafted floor-standing surfboard rack, an aesthetically pleasing and functional way to store and showcase your quiver. Made in Christchurch New Zealand.
 
 It can be erected as a left or right-breaking wave, or put a couple together as a peak.
 
@@ -52,10 +52,15 @@ Can store boards in bags or without.
 
 The horizontal construction is a 6mm high tensile threaded rod passing through a steel tube with washers welded at each end of the crush tube
 to create high-tension EVA foam-coated laterals. This provides excellent bracing and protection for your board's tails and rails once erected.
+The edges of the uprights are double-rounded, making them feel smooth to the touch.
 
 * Height: 1500mm
 * Width: 600mm
 * Depth: 1018mm (assembled size)
+* Distance between uprights: 230mm
 * Interior use only
 * Easy to assemble
-* Made by New Zealand surfers for surfers.
+* No additional tools necessary
+
+Customisations available on request.
+
