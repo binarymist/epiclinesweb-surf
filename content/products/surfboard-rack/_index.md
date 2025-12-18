@@ -5,5 +5,5 @@ draft: false
 taxonomy_prefix: "surfboard-rack"
 ---
 
-All of our surfboard racks have been designed, engineered, built, and tested by New Zealand surfers. That's right, everything we make we use ourselves.
+All of our surfboard racks have been designed, engineered, built, and tested In New Zealand by New Zealand surfers. That's right, everything we make we use ourselves.
 

@@ -28,7 +28,7 @@ button_link: "#"
 draft: false
 ---
 
-> Currently out of stock.
+> The 2026 Annual Drop: Available Until They're Gone.
 
 After many months of R&D, _EpicLines_ presents its lovingly engineered and crafted floor-standing surfboard rack, an aesthetically pleasing and functional way to store and showcase your quiver. Made in Christchurch New Zealand.
 
