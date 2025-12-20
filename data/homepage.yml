@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "New Zealands Own Surf Accessories"
+  title: "Making Lines For The Lineup"
   content: "We're done watching the surf industry put its bottom line before the lineup. **_EpicLines_** is a brand founded on the simple truth: surfers deserve better. We're dedicated to shifting the focus back to **authentic quality and the vibrant community** that sustains our sport. This is our wave of change."
   image: "images/banner_min.png"
   button:
