@@ -20,7 +20,7 @@ surfboard-rack/mount-positions: ["floor-standing"]
 
 
 # product variation
-
+productvariation_wave-type: ["left hander", "right hander"]
 
 # button link if you don't want to use snipcart. empty link will not show button
 button_link: "#"
@@ -32,7 +32,7 @@ draft: false
 
 After many months of R&D, _EpicLines_ presents its lovingly engineered and crafted floor-standing surfboard rack, an aesthetically pleasing and functional way to store and showcase your quiver. Made by the beach in Christchurch New Zealand.
 
-It can be erected as a left or right-breaking wave, or put a couple together as a peak.
+Variations: left-hand breaking wave or right-hand breaking wave, or put a couple together as a peak.
 
 Stores 4+ surfboards with fins.
 
