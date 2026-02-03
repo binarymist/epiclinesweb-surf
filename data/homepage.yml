@@ -132,3 +132,9 @@ testimonial:
       image: "images/avater.png"
       content: "I have recently purchased 2 of the full deck grip pads from EpicLines, it can be hard to find pads that are wide enough to fit bigger boards. These pads solve that problem, well made, good grip and excellent adhesive, i am quite happy with my purchase."
 
+    # testimonial item loop
+    - name: "Rob Wass"
+      designation: "Dunedin"
+      image: "images/RobWass_min.png"
+      content: "I used the heat-seal tape to reinforce my wetsuit knee pads that were starting to pull apart. I patched both the inside and outside, and it’s held really well. The tape was easy to apply and has stayed in place, unlike other repair products I’ve tried."
+
