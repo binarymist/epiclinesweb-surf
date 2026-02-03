@@ -23,9 +23,12 @@ surfboard-rack/mount-positions: ["floor-standing"]
 productvariation_wave-type: ["left hander", "right hander"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/other/search?search_string=EpicLines%20Floor-Standing%20Surfboard%20Rack"
 
 draft: false
+# Remove followng feature flag once ready to roll out cart and Stripe site wide.
+# Will also need to remove the checks in layouts/products/single.html
+featureflag_cart: false
 ---
 
 > The 2026 Annual Drop: Available Until They're Gone.

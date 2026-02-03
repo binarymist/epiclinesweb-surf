@@ -90,8 +90,9 @@
 <!-- To be removed once we implement Stripe -->
 <script src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
 
-{{ $custom := resources.Get "js/dropdown-hover.js" | minify | fingerprint }}
-<script src="{{ $custom.Permalink }}"></script>
+{{ $elBundleOpts := dict "targetPath" "js/el-bundle.js" "minify" true }}
+{{ $eLJS := resources.Get "js/main.js" | js.Build $elBundleOpts | fingerprint }}
+<script src="{{ $eLJS.Permalink }}" type="module"> integrity="{{ $eLJS.Data.Integrity }}"</script>
 
 <!-- Main Script from theme -->
 {{ $script := resources.Get "js/script.js" | minify | fingerprint }}

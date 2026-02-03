@@ -3,4 +3,4 @@
 
 *.code-workspace
 .hugo_build.lock
-
+assets/jsconfig.json

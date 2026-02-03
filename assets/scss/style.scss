@@ -267,6 +267,10 @@ header.sticky-top {
   color: #444;
 }
 
+.dropdown-item:hover {
+  background-color: rgba($epiclines-green, 0.1);
+}
+
 .dropdown-item:active {
   background-color: $epiclines-green;
 }
@@ -531,6 +535,41 @@ s.price {
   }
 }
 
+// variation dropdown for product single
+
+/* Show the dropdown list */
+.variation-options-list.show { 
+    display: block !important; 
+}
+
+/* 1. Desktop Hover (Light Green) */
+@media (hover: hover) {
+    .variation-option:hover {
+        background-color: rgba($epiclines-green, 0.1);
+        color: #16181b;
+    }
+}
+
+/* 2. Selected Item */
+.variation-option.selected {
+    background-color: $epiclines-green;
+    color: #ffffff;
+}
+
+/* 3. Mobile Tap Feedback */
+.variation-option:active {
+    background-color: $epiclines-green;
+    color: #ffffff;
+}
+
+.variation-select-trigger {
+  i {
+    line-height: 1.8;
+  }  
+}
+
+
+
 // contact list
 .contact-list {
 
@@ -568,7 +607,7 @@ textarea.form-control {
 }
 
 
-/* product sinngle page */
+/* product single page */
 
 .product-image-slider {
   position: sticky;

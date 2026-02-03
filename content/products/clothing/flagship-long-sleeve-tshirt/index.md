@@ -26,7 +26,9 @@ productvariation_sizes: ["sml", "med", "lrg", "xlg"]
 button_link: "https://www.trademe.co.nz/a/marketplace/clothing-fashion/men/t-shirts/search?search_string=EpicLInes%20Flagship%20Long%20Sleeve%20T"
 
 draft: false
-
+# Remove followng feature flag once ready to roll out cart and Stripe site wide.
+# Will also need to remove the checks in layouts/products/single.html
+featureflag_cart: false
 
 ---
 

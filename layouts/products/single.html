@@ -38,6 +38,7 @@
       <div class="col-lg-6 col-md-7 offset-lg-1">
         <h1 class="mb-4">{{ .Title }}</h1>
 
+        {{/* 1. Logic to identify variations */}}
         {{ $productVariations := dict }}
         {{ range $paramsKey, $paramsValue := .Params }}
           {{ if hasPrefix $paramsKey "productvariation_" }}
@@ -46,30 +47,56 @@
           {{ end }}
         {{ end }}
 
-        {{ range $variation, $values := $productVariations }}
-          <p><strong>{{ $variation | title }}: </strong>{{ delimit $values ", " | title }}</p>
+        {{/* 2. Variation Display: Interactive if Snipcart is ON, Static if OFF */}}
+        {{ if and site.Params.snipcart.enable .Params.featureflag_cart }}
+          {{ $dropdownVariationIndex := 1 }}
+          {{ range $name, $options := $productVariations }}
+          <div class="variation-select-wrapper mb-4" style="position: relative; width: 250px;">
+              <label class="font-weight-bold">Choose {{ $name | title }}:</label>
+              <div class="variation-select-trigger" onclick="this.nextElementSibling.classList.toggle('show')"
+                  style="padding: 10px; border: 1px solid #ccc; background: #fff; cursor: pointer; display: flex; justify-content: space-between;">
+                  <span>{{ index $options 0 | title }}</span>
+                  <i class="tf-ion-ios-arrow-down"></i>
+              </div>
+              <ul class="variation-options-list" style="display: none; position: absolute; width: 100%; background: #fff; border: 1px solid #ccc; list-style: none; padding: 0; margin: 0; z-index: 1000;">
+                  {{ range $options }}
+                  <li class="variation-option" data-value="{{ . }}" data-target="data-item-custom{{ $dropdownVariationIndex }}-value" onclick="el.productVariationDropdownHandleSelection(this)" style="padding: 10px; cursor: pointer;">{{ . | title }}</li>
+                  {{ end }}
+              </ul>
+          </div>
+          {{ $dropdownVariationIndex = add $dropdownVariationIndex 1 }}
+          {{ end }}
+        {{ else }}
+          {{ range $variation, $values := $productVariations }}
+            <p><strong>{{ $variation | title }}: </strong>{{ delimit $values ", " | title }}</p>
+          {{ end }}
         {{ end }}
+
+        {{/* 3. Price Display */}}
         <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
         {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
         </p>
-        {{ if site.Params.snipcart.enable }}
+
+        {{/* 4. Button Logic */}}
+        {{ if and site.Params.snipcart.enable .Params.featureflag_cart }}
         <button class="snipcart-add-item btn btn-main mb-5" 
-          data-item-id="{{.Title | urlize}}__{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
-          data-item-name="{{.Title}}"
-          data-item-image="{{with .Params.Images}} {{range first 1 . }}{{. | absURL}}{{end}}{{end}}"
-          data-item-price="{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}" data-item-url="{{.Permalink}}"
-          {{ $customIndex := 1 }}
-          {{ range $variationKey, $options := $productVariations }}
-            data-item-custom{{ $customIndex }}-name="Choose {{ $variationKey | title }}"
-            data-item-custom{{ $customIndex }}-options="{{ range $index, $value := $options }}{{ if eq $index 0 }}{{ $value | title }}{{ else }}|{{ $value | title }}{{ end }}{{ end }}"
-            {{ $customIndex = add $customIndex 1 }}
+          data-item-id="{{ .Title | urlize }}"
+          data-item-name="{{ .Title }}"
+          data-item-image="{{- with .Params.Images -}}{{- range first 1 . -}}{{- $res := resources.Get . | fingerprint -}}{{- $res.Permalink | absURL -}}{{- end -}}{{- end -}}"
+          data-item-price="{{ if .Params.discount_price }}{{ .Params.discount_price }}{{ else }}{{ .Params.price }}{{ end }}" 
+          data-item-url="{{ .Permalink }}"
+          {{ $buttonVariationIndex := 1 }}
+          {{ range $key, $opts := $productVariations }}
+            data-item-custom{{ $buttonVariationIndex }}-name="Choose {{ $key | title }}"
+            data-item-custom{{ $buttonVariationIndex }}-options="{{ range $index, $value := $opts }}{{ if eq $index 0 }}{{ $value }}{{ else }}|{{ $value }}{{ end }}{{ end }}"
+            {{ $buttonVariationIndex = add $buttonVariationIndex 1 }}
           {{ end }}>
           Add to Cart
         </button>
         {{ else }}
-        {{ with .Params.button_link}}
-        <a class="btn btn-main mb-5" href="{{ . | absURL }}">Add to Cart</a>
-        {{ end }}
+          {{ with .Params.button_link }}
+            <a class="btn btn-main mb-5" href="{{ . | absURL }}">Add to Cart</a>
+          {{ end }}
         {{ end }}
 
         <div class="content">{{.Content}}</div>
@@ -77,5 +104,4 @@
     </div>
   </div>
 </section>
-
 {{ end }}

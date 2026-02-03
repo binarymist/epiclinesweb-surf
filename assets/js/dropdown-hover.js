@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
+export function initDropdownHover() {
   const isDesktop = window.matchMedia('(hover: hover)').matches && window.innerWidth >= 992;
-
   const dropdowns = document.querySelectorAll('.navbar .dropdown');
 
   dropdowns.forEach(function (dropdown) {
@@ -34,5 +33,4 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
   });
-});
-
+}
