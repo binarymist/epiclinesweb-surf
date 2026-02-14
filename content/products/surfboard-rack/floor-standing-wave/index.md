@@ -23,7 +23,7 @@ surfboard-rack/mount-positions: ["floor-standing"]
 productvariation_wave-type: ["left hander", "right hander"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/other/search?search_string=EpicLines%20Floor-Standing%20Surfboard%20Rack"
+button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/other/search?search_string=EpicLines%20Floor-Standing%20Wave%20Surfboard%20Rack"
 
 draft: false
 # Remove followng feature flag once ready to roll out cart and Stripe site wide.
@@ -33,13 +33,15 @@ featureflag_cart: false
 
 > The 2026 Annual Drop: Available Until They're Gone.
 
-After many months of R&D, _EpicLines_ presents its lovingly engineered and crafted floor-standing surfboard rack, an aesthetically pleasing and functional way to store and showcase your quiver. Made by the beach in Christchurch New Zealand.
+After many months of R&D, _EpicLines_ presents its lovingly engineered and crafted Floor-Standing Wave surfboard rack,
+an aesthetically pleasing and functional way to store and showcase your quiver.
+This design allows for a seamless storage solution, keeping your boards protected and ready for making lines. Made by the beach in Christchurch, New Zealand.
 
 Variations: left-hand breaking wave or right-hand breaking wave, or put a couple together as a peak.
 
 Stores 4+ surfboards with fins.
 
-Epoxy (2-pack) spray-coated over 18mm MDF.
+Epoxy (2-pack) spray system over 18mm MDF.
 
 Supports:
   Longboards,
@@ -67,6 +69,4 @@ The edges of the uprights are double-rounded, making them feel smooth to the tou
 * No additional tools necessary
 
 Customisations available on request.
-
-Inside use only.
 
