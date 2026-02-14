@@ -29,13 +29,6 @@ weight = 1
   weight = 3
 
   [[main]]
-  identifier = "shop_wax"
-  parent = "shop"
-  name = "Wax"
-  url = "products/wax/"
-  weight = 4
-
-  [[main]]
   identifier = "shop_clothing"
   parent = "shop"
   name = "Clothing"
