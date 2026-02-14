@@ -46,6 +46,7 @@ Supports:
   Shortboards,
   Mid lengths,
   Grovelers,
+  Fish,
   Hybrids,
   Guns,
   All tail types,
@@ -66,4 +67,6 @@ The edges of the uprights are double-rounded, making them feel smooth to the tou
 * No additional tools necessary
 
 Customisations available on request.
+
+Inside use only.
 
