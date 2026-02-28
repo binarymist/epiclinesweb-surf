@@ -24,7 +24,7 @@ export function handleSelection(el) {
 
     // 4. Close dropdown
     list.classList.remove('show');
-}
+};
 
 // Global click-away listener
 export function initProductVariationDropdownGlobal() {
@@ -33,5 +33,5 @@ export function initProductVariationDropdownGlobal() {
           document.querySelectorAll('.variation-options-list').forEach(l => l.classList.remove('show'));
       }
   });
-}
+};
 

@@ -1,4 +1,5 @@
 import { initDropdownHover } from './dropdown-hover.js';
+import { initTestimonialSlider } from './testimonial-slider.js';
 import {
   handleSelection as productVariationDropdownHandleSelection,
   initProductVariationDropdownGlobal
@@ -6,12 +7,13 @@ import {
 
 // 1. Initialize event listeners immediately
 document.addEventListener('DOMContentLoaded', () => {
-    initDropdownHover();
-    initProductVariationDropdownGlobal();
+  initDropdownHover();
+  initProductVariationDropdownGlobal();
+  initTestimonialSlider();
 });
 
 // 2. Create the global namespace 'el' for inline HTML calls
 window.el = {
-    productVariationDropdownHandleSelection
+  productVariationDropdownHandleSelection
 };
 

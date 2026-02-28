@@ -10,21 +10,24 @@
           <h2>{{ .title | markdownify }}</h2>
         </div>
       </div>
+      
+      <div class="testimonial-slider col-12">
+      
       {{ range .testimonial_item }}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
-        <div class="testimonial-block">
-          <i class="tf-ion-quote"></i>
-          <p>{{ .content | markdownify }}</p>
-          <div class="author-details">
-            {{/* warnf "1 partials/testimonials 🟢 : %+v" ( .image ) }}
-            {{ warnf "2 partials/testimonials 🟢 : %T" ( .image ) */}}
+      <div class="testimonial-block d-flex flex-column mx-3 text-center">        
+        <i class="tf-ion-quote"></i>
+        <p>{{ .content | markdownify }}</p>
+        <div class="author-details">
+          {{/* warnf "1 partials/testimonials 🟢 : %+v" ( .image ) }}
+          {{ warnf "2 partials/testimonials 🟢 : %T" ( .image ) */}}
 
-            {{/* Create the resource from . image*/}}
-            {{/* Fingerprint the resource */}}
-            {{/* Create the copy */}}
-            {{/* Pass the new resource path to partial "image.html" */}}
+          {{/* Create the resource from . image*/}}
+          {{/* Fingerprint the resource */}}
+          {{/* Create the copy */}}
+          {{/* Pass the new resource path to partial "image.html" */}}
 
-            {{ $resourcePath := resources.Get .image }}
+          {{ $resourcePath := resources.Get .image }}
+          {{ if $resourcePath }}
             {{ $fingerprintedImage := $resourcePath | fingerprint }}
             {{- $imgResource := resources.Copy ($fingerprintedImage.RelPermalink | strings.TrimPrefix (printf "/%s" site.Params.section)) (resources.Get $resourcePath) -}}
             {{ $fingerprintedURL := $imgResource.Permalink }}
@@ -36,15 +39,19 @@
 
             {{/* warnf "7 partials/testimonials 🟢 : %+v" $fingerprintedURL }}
             {{ warnf "8 partials/testimonials 🟢 : %T" $fingerprintedURL */}}
-            {{ partial "image.html" (dict "Src" $fingerprintedURL "Alt" .name ) }}
-            <h4>{{ .name }}</h4>
-            <span>{{ .designation }}</span>
-          </div>
-        </div>
+            <div class="d-flex justify-content-center">
+              {{ partial "image.html" (dict "Src" $fingerprintedURL "Alt" .name ) }}
+            </div>
+          {{ end }}
+          <h4>{{ .name }}</h4>
+          <span>{{ .designation }}</span>
+        </div>          
       </div>
       {{ end }}
+      </div>
     </div>
     {{ end }}
   </div>
 </section>
 {{ end }}
+
