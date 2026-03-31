@@ -8,7 +8,7 @@ images:
   - "images/products/accessory/heatseal-tape/detail_min.jpg"
 
 # meta description
-description : "Wetsuit heatseal tape"
+description : "Wetsuit Heatseal Tape"
 
 # product Price
 price: "25.00"

@@ -8,7 +8,7 @@ images:
   - "images/products/clothing/flagship-singlet/5007_LOWDOWN_SINGLET_FRONT_cropped_sized_reduced_min.jpg"
 
 # meta description
-description : "surf bucket hat"
+description : "Flagship Singlet"
 
 # product Price
 price: "45.00"

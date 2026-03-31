@@ -32,6 +32,8 @@ draft: false
 
 ---
 
+> Out of stock.
+
 Surfing bucket hat, great for keeping the hot sun off of your head and out of your eyes.
 Breathable fabric. UPF50+. Adjustable soft neoprene chin strap. Strong clasp.
 Comfortable to wear, yet stiff enough to retain shape.

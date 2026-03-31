@@ -36,9 +36,9 @@ featureflag_cart: false
 
 The Wall Mount Triple Point Break surfboard rack embodies the _EpicLines_ spirit, merging premium design with peak performance.
 Expertly shaped into our iconic _**E**_ logo, this rack creates a perfect vertical lineup for three of your favourite boards.
-It’s a minimalist, space-saving statement piece designed to keep your quiver organised and ready for making lines. Made by the beach in Christchurch, New Zealand."
+It’s a minimalist, space-saving statement piece designed to keep your quiver organised and ready for making lines. Made by the beach in Christchurch, New Zealand.
 
-<i class='tf-ion-waterdrop'></i> &nbsp; **The Signature 'E' Silhouette**: A unique wall-mounted design that integrates our brand identity directly into your storage solution. Fixed to the wall with concealed slide-on mounting brackets<br>
+<i class='tf-ion-waterdrop'></i> &nbsp; **The Signature 'E' Silhouette**: A unique wall-mounted design that integrates our brand identity directly into your storage solution<br>
 <i class='tf-ion-waterdrop'></i> &nbsp; **Triple Capacity**: Securely houses 3 shortboards (optionally in bags), all tail types, all fin configurations, ensuring your go-to lineup is always within reach<br>
 <i class='tf-ion-waterdrop'></i> &nbsp; **Elite Surface Protection**: 18mm x 3mm EVA foam padding shields your board’s rails, deck, and hull from any contact damage<br>
 <i class='tf-ion-waterdrop'></i> &nbsp; **Premium _EpicLines_ Craftsmanship**: Finished with a durable 2-pack epoxy spray system over 18mm MDF for a showroom-quality finish<br>
@@ -47,6 +47,12 @@ It’s a minimalist, space-saving statement piece designed to keep your quiver o
 * Height: 1120mm
 * Width: 545mm
 * Interior use only
+
+### Installation & Mounting:
+
+Each rack piece is secured using two concealed, tapered joinery fasteners for a seamless, hardware-free look. Installation is simple: drive the supplied screws to the required depth and slide the rack onto the fasteners. The tapered design ensures the rack pulls tighter against the wall as it slides into position.
+
+We provide specific hardware for timber studs, metal studs, and masonry/concrete walls. To ensure maximum stability, we recommend mounting directly into wall framing or masonry rather than relying on drywall alone. Full installation instructions are included.
 
 Customisations available on request.
 

@@ -7,7 +7,7 @@ images:
   - "images/products/clothing/womans-flagship-mali-tshirt/4008_MALI_TEE_BACK-cropped-sized-reduced_min.jpg"
 
 # meta description
-description : "surf bucket hat"
+description : "Womans Flagship Mali T"
 
 # product Price
 price: "49.95"
