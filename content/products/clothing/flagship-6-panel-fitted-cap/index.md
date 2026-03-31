@@ -24,7 +24,7 @@ productvariation_colours: ["black"]
 productvariation_sizes: ["L/XL"]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "https://www.trademe.co.nz/a/marketplace/sports/surfing/search?search_string=EpicLines%20Surfing%20Bucket%20Hat"
+button_link: "https://www.trademe.co.nz/a/search?search_string=EpicLines%20Flagship%206%20Panel%20Fitted%20Cap"
 
 draft: false
 
