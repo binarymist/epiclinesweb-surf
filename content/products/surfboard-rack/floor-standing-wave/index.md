@@ -31,7 +31,9 @@ draft: false
 featureflag_cart: false
 ---
 
-> The 2026 Annual Drop: Available Until They're Gone.
+<!-- > The 2026 Annual Drop: Available Until They're Gone. -->
+
+> Sold out, back in summer.
 
 After many months of R&D, _EpicLines_ presents its lovingly engineered and crafted Floor-Standing Wave surfboard rack,
 an aesthetically pleasing and functional way to store and showcase your quiver.
