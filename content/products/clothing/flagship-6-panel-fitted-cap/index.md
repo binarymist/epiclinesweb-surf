@@ -3,6 +3,7 @@ title: "Flagship 6 Panel Fitted Cap"
 date: 2026-03-28T11:22:16+06:00
 images: 
   - "images/products/clothing/flagship-6-panel-fitted-cap/Front_min.png"
+  - "images/products/clothing/flagship-6-panel-fitted-cap/Front-white_min.png"
   - "images/products/clothing/flagship-6-panel-fitted-cap/Back_min.png"
   - "images/products/clothing/flagship-6-panel-fitted-cap/Logo-black_min.png"
   - "images/products/clothing/flagship-6-panel-fitted-cap/Logo-green_min.png"
@@ -17,10 +18,10 @@ price: "59.95"
 
 # taxonomy
 clothing/hats: ["6-panel"]
-clothing/colours: ["black"]
+clothing/colours: ["black", "white"]
 
 # product variation
-productvariation_colours: ["black"]
+productvariation_colours: ["black", "white"]
 productvariation_sizes: ["L/XL"]
 
 # button link if you don't want to use snipcart. empty link will not show button
